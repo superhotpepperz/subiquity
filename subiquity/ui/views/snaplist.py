@@ -103,8 +103,9 @@ class SnapInfoView(WidgetWrap):
                 Text(notes),
             ])))
 
+        headings = ["CHANNEL", "VERSION", "SIZE", "PUBLISHED", "CONFINEMENT"]
         lb_channel_headers = TablePile([
-            TableRow(map(Text, ["CHANNEL", "VERSION", "SIZE", "PUBLISHED", "CONFINEMENT"]))])
+            TableRow(map(Text, headings))])
         lb_channels = NoTabCyclingTableListBox(self.channels)
         lb_channel_headers.bind(lb_channels)
 
@@ -152,7 +153,10 @@ class SnapInfoView(WidgetWrap):
         rows_wanted_channels = len(self.channels)
 
         log.debug('rows_available %s', rows_available)
-        log.debug('rows_wanted_description %s rows_wanted_channels %s', rows_wanted_description, rows_wanted_channels)
+        log.debug(
+            'rows_wanted_description %s rows_wanted_channels %s',
+            rows_wanted_description,
+            rows_wanted_channels)
 
         if rows_wanted_channels + rows_wanted_description <= rows_available:
             description_rows = rows_wanted_description
@@ -160,7 +164,8 @@ class SnapInfoView(WidgetWrap):
             if rows_wanted_description < 2*rows_available/3:
                 description_rows = rows_wanted_description
             else:
-                channel_rows = max(min(rows_wanted_channels, int(rows_available/3)), 2)
+                channel_rows = max(
+                    min(rows_wanted_channels, int(rows_available/3)), 2)
                 log.debug('channel_rows %s', channel_rows)
                 description_rows = rows_available - channel_rows
 

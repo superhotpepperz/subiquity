@@ -16,6 +16,7 @@
 import logging
 
 from urwid import (
+    AttrMap,
     CheckBox,
     LineBox,
     ListBox as UrwidListBox,
@@ -327,12 +328,19 @@ class SnapListView(BaseView):
         body = []
         for snap in snap_list:
             box = self.snap_boxes[snap.name] = SnapCheckBox(self, snap)
+            publisher = snap.publisher
+            if snap.verified:
+                publisher = [publisher, ('verified', '\N{check mark}')]
             row = [
                 box,
-                Text(snap.publisher),
+                Text(publisher),
                 Text(snap.summary, wrap='clip'),
                 ]
-            body.append(Color.menu_button(TableRow(row)))
+            body.append(AttrMap(
+                TableRow(row),
+                'menu_button',
+                {None: 'menu_button focus', 'verified': 'verified focus'},
+                ))
         table = NoTabCyclingTableListBox(
             body,
             colspecs={

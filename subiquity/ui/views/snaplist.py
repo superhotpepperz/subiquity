@@ -37,6 +37,7 @@ from subiquitycore.ui.container import (
 from subiquitycore.ui.table import (
     AbstractTable,
     ColSpec,
+    TablePile,
     TableRow,
     )
 from subiquitycore.ui.utils import button_pile, Color, screen
@@ -96,13 +97,16 @@ class SnapInfoView(WidgetWrap):
                     is_classic=csi.confinement == "classic"))
             self.channels.append(Color.menu_button(TableRow([
                 btn,
-                Text(csi.version),
-                Text("({})".format(csi.revision)),
+                Text("{} ({})".format(csi.version, csi.revision)),
                 Text(humanize_size(csi.size)),
+                Text("1 day ago"),
                 Text(notes),
             ])))
 
-        self.lb_channels = NoTabCyclingTableListBox(self.channels)
+        lb_channel_headers = TablePile([
+            TableRow(map(Text, ["CHANNEL", "VERSION", "SIZE", "PUBLISHED", "CONFINEMENT"]))])
+        lb_channels = NoTabCyclingTableListBox(self.channels)
+        lb_channel_headers.bind(lb_channels)
 
         publisher = _("Publisher: {}").format(snap.publisher)
         if snap.verified:
@@ -120,7 +124,11 @@ class SnapInfoView(WidgetWrap):
             ('pack',      Text("")),
             self.lb_description,  # overwritten in render()
             ('pack',      Text("")),
-            ('weight', 1, self.lb_channels),
+            ('pack',      Text("LICENSE: "+snap.license)),
+            ('pack',      Text("")),
+            ('pack',      lb_channel_headers),
+            ('pack',      Text("")),
+            ('weight', 1, lb_channels),
             ]
         self.description_index = contents.index(self.lb_description)
         self.pile = Pile(contents)
@@ -143,13 +151,17 @@ class SnapInfoView(WidgetWrap):
         rows_wanted_description = self.description.rows((maxcol,), False)
         rows_wanted_channels = len(self.channels)
 
+        log.debug('rows_available %s', rows_available)
+        log.debug('rows_wanted_description %s rows_wanted_channels %s', rows_wanted_description, rows_wanted_channels)
+
         if rows_wanted_channels + rows_wanted_description <= rows_available:
             description_rows = rows_wanted_description
         else:
             if rows_wanted_description < 2*rows_available/3:
                 description_rows = rows_wanted_description
             else:
-                channel_rows = min(rows_wanted_channels, int(rows_available/3))
+                channel_rows = max(min(rows_wanted_channels, int(rows_available/3)), 2)
+                log.debug('channel_rows %s', channel_rows)
                 description_rows = rows_available - channel_rows
 
         self.pile.contents[self.description_index] = (

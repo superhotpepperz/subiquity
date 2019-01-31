@@ -1,0 +1,59 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "ltx4XjES2e2ujitNIuO5GxPYDM6lp6ry",
+      "title": "oracle-cloud-agent",
+      "summary": "Oracle Cloud Agent",
+      "description": "Oracle Cloud Infrastructure agent for compute instance management and monitoring.",
+      "download-size": 14790656,
+      "name": "oracle-cloud-agent",
+      "publisher": {
+        "id": "6gJngAZqUerOGcztmb398xUtcZa8twxE",
+        "username": "oci.osi",
+        "display-name": "Oracle Cloud Infrastructure",
+        "validation": "unproven"
+      },
+      "developer": "oci.osi",
+      "status": "available",
+      "type": "app",
+      "version": "0.0.4.162",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "3",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:oci_osi_grp@oracle.com",
+      "license": "UPL-1.0",
+      "channels": {
+        "latest/stable": {
+          "revision": "3",
+          "confinement": "classic",
+          "version": "0.0.4.162",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 14790656,
+          "released-at": "2019-01-29T00:15:45.327493Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

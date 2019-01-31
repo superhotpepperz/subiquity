@@ -1,0 +1,75 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "KcHObzFDZqjULKN6H6R79QnMrCwIL8Xb",
+      "title": "minikube",
+      "summary": "Run Kubernetes locally",
+      "description": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube\nruns a single-node Kubernetes cluster inside a VM on your laptop for users\nlooking to try out Kubernetes or develop with it day-to-day.\n",
+      "download-size": 54566912,
+      "name": "minikube",
+      "publisher": {
+        "id": "a95kkXCT3MH6YnEBARXha95KfYMEaJrI",
+        "username": "cmars",
+        "display-name": "Casey Marshall",
+        "validation": "unproven"
+      },
+      "developer": "cmars",
+      "status": "available",
+      "type": "app",
+      "version": "0.8.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "4",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "Proprietary",
+      "channels": {
+        "latest/edge": {
+          "revision": "7",
+          "confinement": "strict",
+          "version": "0.24.1",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 45346816,
+          "released-at": "2018-01-24T20:12:14.141342Z"
+        },
+        "latest/stable": {
+          "revision": "4",
+          "confinement": "strict",
+          "version": "0.8.0",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 54566912,
+          "released-at": "2017-05-17T21:17:35.832841Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

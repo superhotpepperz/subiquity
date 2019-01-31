@@ -1,0 +1,124 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "lRcMnlvYUgdzI53gYbvCNehLhLBXwnwk",
+      "title": "vapor-master",
+      "summary": "RosHub Vapor Master",
+      "description": "Vapor-master is a drop in replacement for rosmaster enabling high availability ROS service discovery. Vapor removes the single point of failure fundamental to ROS1, enabling new options for achieving scale without sacrificing stability.",
+      "download-size": 25960448,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/roshub_vector_logo-256x256.png",
+      "name": "vapor-master",
+      "publisher": {
+        "id": "pCxbvvrxa5EhlTjs6dtMWCySjVI5GfRP",
+        "username": "roshub",
+        "display-name": "RosHub Inc",
+        "validation": "unproven"
+      },
+      "developer": "roshub",
+      "status": "available",
+      "type": "app",
+      "version": "0.3",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "46",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:code@roshub.io",
+      "license": "Apache-2.0",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/vapor-1_1-db.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/vapor_scaling.jpg",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/roshub_logo_cropped_large.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/roshub_vector_logo-256x256.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/vapor-1_1-db.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/vapor_scaling.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/roshub_logo_cropped_large.png"
+        }
+      ],
+      "channels": {
+        "latest/candidate": {
+          "revision": "46",
+          "confinement": "strict",
+          "version": "0.3",
+          "channel": "candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 25960448,
+          "released-at": "2019-01-23T06:34:03.975418Z"
+        },
+        "latest/edge": {
+          "revision": "53",
+          "confinement": "strict",
+          "version": "0.4",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 51933184,
+          "released-at": "2019-01-31T02:34:09.342679Z"
+        },
+        "latest/stable": {
+          "revision": "46",
+          "confinement": "strict",
+          "version": "0.3",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 25960448,
+          "released-at": "2019-01-23T06:34:21.390887Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

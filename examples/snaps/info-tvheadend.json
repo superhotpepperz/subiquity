@@ -1,0 +1,75 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "BLigMwxrfwBKQpnk0iQHu8hZts8Fgf2d",
+      "title": "tvheadend",
+      "summary": "TV streaming server supporting DVB, ATSC, IPTV, and SAT>IP",
+      "description": "Tvheadend is a TV streaming server and digital video recorder supporting DVB-S, DVB-S2, DVB-C, DVB-C2, DVB-T, DVB-T2, ATSC, IPTV, SAT>IP and other formats. It can also stream and record from HDHomeRun devices.\nOnce installed use your web browser to navigate to http://<IP-Address>:9981/ (You can use 127.0.0.1 for the IP Address if your browser and tvheadend are on the same computer.)",
+      "download-size": 46669824,
+      "name": "tvheadend",
+      "publisher": {
+        "id": "oew2TZOpQF0lGd3JKNZydA2BCn1Z66FO",
+        "username": "diddledan",
+        "display-name": "Daniel Llewellyn",
+        "validation": "unproven"
+      },
+      "developer": "diddledan",
+      "status": "available",
+      "type": "app",
+      "version": "4.2.6",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "17",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/diddlesnaps/tvheadend/issues",
+      "license": "unset",
+      "channels": {
+        "latest/edge": {
+          "revision": "17",
+          "confinement": "strict",
+          "version": "4.2.6",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 46669824,
+          "released-at": "2018-08-31T10:37:50.186368Z"
+        },
+        "latest/stable": {
+          "revision": "17",
+          "confinement": "strict",
+          "version": "4.2.6",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 46669824,
+          "released-at": "2019-01-18T13:52:33.090934Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

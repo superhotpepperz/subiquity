@@ -1,0 +1,82 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "t3hW1r6c7hCZ1S9lvGNQh2y8jOLOSGad",
+      "title": "Factorio Headless Server",
+      "summary": "Headless server for Factorio running as a system service",
+      "description": "Change configuration options and watch log\n\n    sudo snap get factorio-headless\n    sudo snap set factorio-headless admins='[\"kovarex\"]'\n    sudo snap set factorio-headless game-password=1337\n    sudo snap restart factorio-headless\n    sudo snap logs factorio-headless -f\n\nControl the service and check status\n\n    sudo snap start factorio-headless\n    sudo snap stop factorio-headless\n    sudo snap start --enable factorio-headless\n    sudo snap stop --disable factorio-headless\n    sudo snap services | grep factorio-headless\n\nServer files location\n\n    ls /var/snap/factorio-headless/common",
+      "download-size": 32276480,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/icon_2yuGmCj.png",
+      "name": "factorio-headless",
+      "publisher": {
+        "id": "QC5NSduoevvLaR6xYliKyl9nPqRV3frc",
+        "username": "nubing",
+        "display-name": "Private Nubing",
+        "validation": "unproven"
+      },
+      "developer": "nubing",
+      "status": "available",
+      "type": "app",
+      "version": "0.16.51",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "10",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/nubing/factorio-headless/issues",
+      "license": "Proprietary",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/icon_2yuGmCj.png"
+        }
+      ],
+      "channels": {
+        "latest/edge": {
+          "revision": "10",
+          "confinement": "strict",
+          "version": "0.16.51",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 32276480,
+          "released-at": "2019-01-22T00:04:54.526679Z"
+        },
+        "latest/stable": {
+          "revision": "10",
+          "confinement": "strict",
+          "version": "0.16.51",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 32276480,
+          "released-at": "2019-01-22T00:21:33.271791Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

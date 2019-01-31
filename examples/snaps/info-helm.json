@@ -1,0 +1,98 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "VY12auPDSljUlac4CZaOdMExw7IASsgB",
+      "title": "helm",
+      "summary": "The Kubernetes package manager",
+      "description": "Helm is a tool for managing Kubernetes\ncharts. Charts are packages of\npre-configured Kubernetes resources.\n\nThis snap is maintained by the Snapcrafters community, and is not necessarily endorsed or officially maintained by the upstream developers.",
+      "download-size": 9117696,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/helm.png",
+      "name": "helm",
+      "publisher": {
+        "id": "eEoV9TnaNkCzfJBu9SRhr2678vzyYV43",
+        "username": "snapcrafters",
+        "display-name": "Snapcrafters",
+        "validation": "unproven"
+      },
+      "developer": "snapcrafters",
+      "status": "available",
+      "type": "app",
+      "version": "2.12.3",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "82",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/snapcrafters/helm/issues",
+      "license": "Apache-2.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/helm.png"
+        }
+      ],
+      "channels": {
+        "latest/beta": {
+          "revision": "82",
+          "confinement": "classic",
+          "version": "2.12.3",
+          "channel": "beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 9117696,
+          "released-at": "2019-01-23T23:28:29.573618Z"
+        },
+        "latest/edge": {
+          "revision": "82",
+          "confinement": "classic",
+          "version": "2.12.3",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 9117696,
+          "released-at": "2019-01-23T16:39:47.375019Z"
+        },
+        "latest/stable": {
+          "revision": "82",
+          "confinement": "classic",
+          "version": "2.12.3",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 9117696,
+          "released-at": "2019-01-23T23:28:29.573618Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

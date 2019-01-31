@@ -1,0 +1,59 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "WF2MM79M4JKmmaBmY6BXQhvTJAl9ui7S",
+      "title": "postgresql95-pgpool2-36",
+      "summary": "pgpool-II is a connection pooler for PostgreSQL.",
+      "description": "pgpool-II is a middleware that works between PostgreSQL servers and a PostgreSQL database client. It is licensed under BSD license. It provides the following features – Connection Pooling, Replication Load Balancing, Limiting Exceeding Connections.",
+      "download-size": 2793472,
+      "name": "postgresql95-pgpool2-36",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
+      "developer": "cmd",
+      "status": "available",
+      "type": "app",
+      "version": "3.6.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "2",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "Proprietary",
+      "channels": {
+        "latest/stable": {
+          "revision": "2",
+          "confinement": "strict",
+          "version": "3.6.0",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 2793472,
+          "released-at": "2017-05-17T21:18:18.947374Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

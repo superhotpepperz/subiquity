@@ -1,0 +1,82 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "5YEePglbs8h74jSyykjQC9YvzHN1pg0z",
+      "title": "mOAuth",
+      "summary": "OAuth 2.0 Authorization and Resource Server",
+      "description": "mOAuth is a basic OAuth 2.0 client/server implementation that is geared towards\ntesting and development of OAuth-based services.  The client library supports\nauthorization of native macOS, iOS, and Linux applications with PKCE.\n\nThe server is both an Authorization Server and a Resource Server that supports:\n\n- User account authentication/authorization using PAM\n- Traditional web-based authorization grants with redirection as well as\n  resource owner password credentials grants\n- Token introspection for services\n- Basic Resource Server functionality with implicit and explicit ACLs\n- Customizable web interface",
+      "download-size": 126976,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/moauth-256.png",
+      "name": "moauth",
+      "publisher": {
+        "id": "VcnVREFSE2O57Itfe846nDxJDIdWSB2P",
+        "username": "michaelrsweet",
+        "display-name": "Michael Sweet",
+        "validation": "unproven"
+      },
+      "developer": "michaelrsweet",
+      "status": "available",
+      "type": "app",
+      "version": "1.1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "97",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "Apache-2.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/moauth-256.png"
+        }
+      ],
+      "channels": {
+        "latest/edge": {
+          "revision": "97",
+          "confinement": "strict",
+          "version": "1.1",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 126976,
+          "released-at": "2019-01-20T04:02:31.452005Z"
+        },
+        "latest/stable": {
+          "revision": "97",
+          "confinement": "strict",
+          "version": "1.1",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 126976,
+          "released-at": "2019-01-20T04:04:10.816752Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

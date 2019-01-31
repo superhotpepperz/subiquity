@@ -1,0 +1,82 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "GsxYxb4I15nrsXDe0IPJjb51zYcNpE24",
+      "title": "cast-web-api",
+      "summary": "Control your Google Cast devices.",
+      "description": "See what's currently playing pause, play, set the volume and more, all from the SmartThings app. Quickly play your favourite content through presets. Check if the daemon is running:\n  $ snap services cast-web-api\nrestart:\n  $ snap restart cast-web-api\n\nOriginal app: https://vervallsweg.github.io",
+      "download-size": 13783040,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/cast-web-api.png",
+      "name": "cast-web-api",
+      "publisher": {
+        "id": "oVvvcqa5XpDMytSKHLjoNLWetunrhzmt",
+        "username": "ignacio",
+        "display-name": "Ignacio Martinez",
+        "validation": "unproven"
+      },
+      "developer": "ignacio",
+      "status": "available",
+      "type": "app",
+      "version": "1.0.1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "6",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "unset",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/cast-web-api.png"
+        }
+      ],
+      "channels": {
+        "latest/edge": {
+          "revision": "6",
+          "confinement": "strict",
+          "version": "1.0.1",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 13783040,
+          "released-at": "2019-01-15T17:20:44.036136Z"
+        },
+        "latest/stable": {
+          "revision": "6",
+          "confinement": "strict",
+          "version": "1.0.1",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 13783040,
+          "released-at": "2019-01-16T13:16:02.608404Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

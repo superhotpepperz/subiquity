@@ -1,0 +1,82 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "CQABYoGge9Vs2HVu3GqpPrH1NloZyML2",
+      "title": "crossbar",
+      "summary": "Crossbar.io - WAMP application router",
+      "description": "Crossbar.io is a networking platform for distributed and microservice\napplications. It is feature rich, scalable, robust and secure. Let\nCrossbar.io take care of the hard parts of messaging so you can focus\non your app's features.",
+      "download-size": 20877312,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/09/crossbar_icon.svg.png",
+      "name": "crossbar",
+      "publisher": {
+        "id": "Y0OJo9eD30GqEGP8MjCMv1pVsexFcZJ4",
+        "username": "crossbario",
+        "display-name": "Crossbar.io GmbH",
+        "validation": "unproven"
+      },
+      "developer": "crossbario",
+      "status": "available",
+      "type": "app",
+      "version": "19.1.1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "666",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://crossbar.io",
+      "license": "AGPL-3.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/09/crossbar_icon.svg.png"
+        }
+      ],
+      "channels": {
+        "latest/edge": {
+          "revision": "700",
+          "confinement": "strict",
+          "version": "19.1.2",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 20877312,
+          "released-at": "2019-01-29T21:57:54.396613Z"
+        },
+        "latest/stable": {
+          "revision": "666",
+          "confinement": "strict",
+          "version": "19.1.1",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 20877312,
+          "released-at": "2019-01-19T07:39:02.243283Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

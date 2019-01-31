@@ -1,0 +1,107 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "AQx6aw8fydM77D132dxZP3MxwrlexLBf",
+      "title": "tika-server",
+      "summary": "Tika Server for metadata discovery and extraction",
+      "description": "Apache Tika is a content detection and analysis framework, written in Java, stewarded at the Apache Software Foundation.It detects and extracts metadata and text from over a thousand different file types, and as well as providing a Java library, has server and command-line editions suitable for use from other programming languages.",
+      "download-size": 147468288,
+      "name": "tika-server",
+      "publisher": {
+        "id": "4fGxHAhxSnRoRUBSBGnA3A33vIFac3Ro",
+        "username": "magicaltrout",
+        "display-name": "Tom Barber",
+        "validation": "unproven"
+      },
+      "developer": "magicaltrout",
+      "status": "available",
+      "type": "app",
+      "version": "1.17",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "6",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:info@spicule.co.uk",
+      "license": "Apache-2.0",
+      "channels": {
+        "latest/beta": {
+          "revision": "8",
+          "confinement": "strict",
+          "version": "1.20",
+          "channel": "beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 164036608,
+          "released-at": "2019-01-03T17:53:44.350752Z"
+        },
+        "latest/candidate": {
+          "revision": "8",
+          "confinement": "strict",
+          "version": "1.20",
+          "channel": "candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 164036608,
+          "released-at": "2019-01-03T17:53:44.350752Z"
+        },
+        "latest/edge": {
+          "revision": "8",
+          "confinement": "strict",
+          "version": "1.20",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 164036608,
+          "released-at": "2019-01-03T17:53:44.350752Z"
+        },
+        "latest/stable": {
+          "revision": "6",
+          "confinement": "strict",
+          "version": "1.17",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 147468288,
+          "released-at": "2017-12-16T09:34:46.520494Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

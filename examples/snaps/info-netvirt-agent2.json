@@ -1,0 +1,75 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "EJAo6GIN1YvjyerXT0cClRwToD3qqTb0",
+      "title": "netvirt-agent2",
+      "summary": "NetVirt a is network virtualization platform.",
+      "description": "NetVirt a is network virtualization platform.\n\nThis snap contains the NetVirt agent.",
+      "download-size": 1433600,
+      "name": "netvirt-agent2",
+      "publisher": {
+        "id": "b5y5tWzq7fotBJ6shxeld8HIZ61pJ0z3",
+        "username": "nib",
+        "display-name": "Nicolas J. Bouliane",
+        "validation": "unproven"
+      },
+      "developer": "nib",
+      "status": "available",
+      "type": "app",
+      "version": "2.0.1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "61",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "GPL-2.0+",
+      "channels": {
+        "latest/edge": {
+          "revision": "120",
+          "confinement": "strict",
+          "version": "2.0.1",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 1433600,
+          "released-at": "2019-01-25T00:33:05.99182Z"
+        },
+        "latest/stable": {
+          "revision": "61",
+          "confinement": "strict",
+          "version": "2.0.1",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 1433600,
+          "released-at": "2018-12-30T17:51:48.016339Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

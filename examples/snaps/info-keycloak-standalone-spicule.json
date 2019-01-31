@@ -4,43 +4,36 @@
   "status": "OK",
   "result": [
     {
-      "id": "b96UJ4vttpNhpbaCWctVzfduQcPwQ5wn",
-      "title": "canonical-livepatch",
-      "summary": "Canonical Livepatch Client",
-      "description": "Canonical Livepatch Client",
-      "download-size": 7811072,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/pictogram-upgrade-orange-hex.svg.png",
-      "name": "canonical-livepatch",
+      "id": "YMQvMBBIcLMx0IVw4nrugFaJvf2SmEvr",
+      "title": "keycloak-standalone-spicule",
+      "summary": "Keycloak Single Sign On Server",
+      "description": "This is the Snap package for the Redhat maintained Keycloak SSO server.\nIt requires an external database to operate to prevent data loss.\nThis version is standalone and runs as a single node, check out the \ncluster version for scale out deployments.",
+      "download-size": 319721472,
+      "name": "keycloak-standalone-spicule",
       "publisher": {
-        "id": "canonical",
-        "username": "canonical",
-        "display-name": "Canonical",
-        "validation": "verified"
+        "id": "4fGxHAhxSnRoRUBSBGnA3A33vIFac3Ro",
+        "username": "magicaltrout",
+        "display-name": "Tom Barber",
+        "validation": "unproven"
       },
-      "developer": "canonical",
+      "developer": "magicaltrout",
       "status": "available",
       "type": "app",
-      "version": "8.1.0",
+      "version": "4.8.1",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "54",
+      "revision": "5",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "mailto:snaps@canonical.com",
-      "license": "Proprietary",
-      "media": [
-        {
-          "type": "icon",
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/pictogram-upgrade-orange-hex.svg.png"
-        }
-      ],
+      "contact": "mailto:info@spicule.co.uk",
+      "license": "Apache-2.0",
       "channels": {
         "latest/beta": {
-          "revision": "50",
+          "revision": "5",
           "confinement": "strict",
-          "version": "8.0.6",
+          "version": "4.8.1",
           "channel": "beta",
           "epoch": {
             "read": [
@@ -50,13 +43,13 @@
               0
             ]
           },
-          "size": 5148672,
-          "released-at": "2018-10-08T19:44:18.015358Z"
+          "size": 319721472,
+          "released-at": "2019-01-07T14:26:44.770798Z"
         },
         "latest/candidate": {
-          "revision": "54",
+          "revision": "5",
           "confinement": "strict",
-          "version": "8.1.0",
+          "version": "4.8.1",
           "channel": "candidate",
           "epoch": {
             "read": [
@@ -66,13 +59,13 @@
               0
             ]
           },
-          "size": 7811072,
-          "released-at": "2018-12-11T09:46:31.11059Z"
+          "size": 319721472,
+          "released-at": "2019-01-07T14:26:44.770798Z"
         },
         "latest/edge": {
-          "revision": "54",
+          "revision": "5",
           "confinement": "strict",
-          "version": "8.1.0",
+          "version": "4.8.1",
           "channel": "edge",
           "epoch": {
             "read": [
@@ -82,13 +75,13 @@
               0
             ]
           },
-          "size": 7811072,
-          "released-at": "2018-12-06T13:37:59.812005Z"
+          "size": 319721472,
+          "released-at": "2019-01-07T14:26:44.770798Z"
         },
         "latest/stable": {
-          "revision": "54",
+          "revision": "5",
           "confinement": "strict",
-          "version": "8.1.0",
+          "version": "4.8.1",
           "channel": "stable",
           "epoch": {
             "read": [
@@ -98,8 +91,8 @@
               0
             ]
           },
-          "size": 7811072,
-          "released-at": "2018-12-13T10:23:08.936315Z"
+          "size": 319721472,
+          "released-at": "2019-01-07T14:26:44.770798Z"
         }
       },
       "tracks": [

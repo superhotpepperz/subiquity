@@ -1,0 +1,741 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "Jgg3PL8MXHm3QlpzkzAfJsrAfsej3U1z",
+      "title": "kubelet",
+      "summary": "kubelet is the primary “node agent” that runs on each node in Kubernetes.",
+      "description": "The kubelet is the primary “node agent” that runs on each node. The kubelet\nworks in terms of a PodSpec. A PodSpec is a YAML or JSON object that describes\na pod. The kubelet takes a set of PodSpecs that are provided through various\nmechanisms (primarily through the apiserver) and ensures that the containers\ndescribed in those PodSpecs are running and healthy. The kubelet doesn’t\nmanage containers which were not created by Kubernetes.\n",
+      "download-size": 22671360,
+      "name": "kubelet",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "1.13.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "704",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snaps@canonical.com",
+      "license": "Other Open Source",
+      "channels": {
+        "1.10/beta": {
+          "revision": "681",
+          "confinement": "classic",
+          "version": "1.10.12",
+          "channel": "1.10/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 24928256,
+          "released-at": "2019-01-08T21:26:16.513434Z"
+        },
+        "1.10/candidate": {
+          "revision": "681",
+          "confinement": "classic",
+          "version": "1.10.12",
+          "channel": "1.10/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 24928256,
+          "released-at": "2019-01-08T21:26:20.571552Z"
+        },
+        "1.10/edge": {
+          "revision": "681",
+          "confinement": "classic",
+          "version": "1.10.12",
+          "channel": "1.10/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 24928256,
+          "released-at": "2019-01-08T21:14:43.135881Z"
+        },
+        "1.10/stable": {
+          "revision": "664",
+          "confinement": "classic",
+          "version": "1.10.12",
+          "channel": "1.10/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 24928256,
+          "released-at": "2018-12-27T23:53:32.814533Z"
+        },
+        "1.11/beta": {
+          "revision": "713",
+          "confinement": "classic",
+          "version": "1.11.7",
+          "channel": "1.11/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 26906624,
+          "released-at": "2019-01-25T00:27:14.707042Z"
+        },
+        "1.11/candidate": {
+          "revision": "713",
+          "confinement": "classic",
+          "version": "1.11.7",
+          "channel": "1.11/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 26906624,
+          "released-at": "2019-01-25T00:27:19.859642Z"
+        },
+        "1.11/edge": {
+          "revision": "713",
+          "confinement": "classic",
+          "version": "1.11.7",
+          "channel": "1.11/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 26906624,
+          "released-at": "2019-01-25T00:21:15.933276Z"
+        },
+        "1.11/stable": {
+          "revision": "623",
+          "confinement": "classic",
+          "version": "1.11.5",
+          "channel": "1.11/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 26890240,
+          "released-at": "2018-12-04T14:26:29.723509Z"
+        },
+        "1.12/beta": {
+          "revision": "709",
+          "confinement": "classic",
+          "version": "1.12.5",
+          "channel": "1.12/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 28585984,
+          "released-at": "2019-01-18T00:23:11.084275Z"
+        },
+        "1.12/candidate": {
+          "revision": "709",
+          "confinement": "classic",
+          "version": "1.12.5",
+          "channel": "1.12/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 28585984,
+          "released-at": "2019-01-18T00:23:14.799569Z"
+        },
+        "1.12/edge": {
+          "revision": "709",
+          "confinement": "classic",
+          "version": "1.12.5",
+          "channel": "1.12/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 28585984,
+          "released-at": "2019-01-18T00:11:20.974078Z"
+        },
+        "1.12/stable": {
+          "revision": "709",
+          "confinement": "classic",
+          "version": "1.12.5",
+          "channel": "1.12/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 28585984,
+          "released-at": "2019-01-25T00:29:32.195014Z"
+        },
+        "1.13/beta": {
+          "revision": "704",
+          "confinement": "classic",
+          "version": "1.13.2",
+          "channel": "1.13/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22671360,
+          "released-at": "2019-01-12T00:28:23.088881Z"
+        },
+        "1.13/candidate": {
+          "revision": "704",
+          "confinement": "classic",
+          "version": "1.13.2",
+          "channel": "1.13/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22671360,
+          "released-at": "2019-01-12T00:28:26.447929Z"
+        },
+        "1.13/edge": {
+          "revision": "704",
+          "confinement": "classic",
+          "version": "1.13.2",
+          "channel": "1.13/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22671360,
+          "released-at": "2019-01-12T00:23:55.092018Z"
+        },
+        "1.13/stable": {
+          "revision": "704",
+          "confinement": "classic",
+          "version": "1.13.2",
+          "channel": "1.13/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22671360,
+          "released-at": "2019-01-19T23:53:34.446878Z"
+        },
+        "1.14/beta": {
+          "revision": "707",
+          "confinement": "classic",
+          "version": "1.14.0-alpha.1",
+          "channel": "1.14/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 23064576,
+          "released-at": "2019-01-16T00:13:26.747852Z"
+        },
+        "1.14/candidate": {
+          "revision": "707",
+          "confinement": "classic",
+          "version": "1.14.0-alpha.1",
+          "channel": "1.14/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 23064576,
+          "released-at": "2019-01-16T00:13:30.44845Z"
+        },
+        "1.14/edge": {
+          "revision": "707",
+          "confinement": "classic",
+          "version": "1.14.0-alpha.1",
+          "channel": "1.14/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 23064576,
+          "released-at": "2019-01-16T00:08:59.803833Z"
+        },
+        "1.5/beta": {
+          "revision": "3",
+          "confinement": "classic",
+          "version": "1.5.5",
+          "channel": "1.5/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 17895424,
+          "released-at": "2017-05-17T21:19:08.563106Z"
+        },
+        "1.5/candidate": {
+          "revision": "3",
+          "confinement": "classic",
+          "version": "1.5.5",
+          "channel": "1.5/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 17895424,
+          "released-at": "2017-05-17T21:19:08.563216Z"
+        },
+        "1.5/edge": {
+          "revision": "3",
+          "confinement": "classic",
+          "version": "1.5.5",
+          "channel": "1.5/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 17895424,
+          "released-at": "2017-05-17T21:19:08.563162Z"
+        },
+        "1.5/stable": {
+          "revision": "3",
+          "confinement": "classic",
+          "version": "1.5.5",
+          "channel": "1.5/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 17895424,
+          "released-at": "2017-05-17T21:19:08.56327Z"
+        },
+        "1.6/beta": {
+          "revision": "463",
+          "confinement": "classic",
+          "version": "1.6.13",
+          "channel": "1.6/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22106112,
+          "released-at": "2018-10-17T14:31:03.85984Z"
+        },
+        "1.6/candidate": {
+          "revision": "463",
+          "confinement": "classic",
+          "version": "1.6.13",
+          "channel": "1.6/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22106112,
+          "released-at": "2018-10-17T14:31:05.273225Z"
+        },
+        "1.6/edge": {
+          "revision": "463",
+          "confinement": "classic",
+          "version": "1.6.13",
+          "channel": "1.6/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22106112,
+          "released-at": "2018-10-17T14:21:39.463369Z"
+        },
+        "1.6/stable": {
+          "revision": "233",
+          "confinement": "classic",
+          "version": "1.6.13",
+          "channel": "1.6/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22106112,
+          "released-at": "2017-11-30T00:00:27.386752Z"
+        },
+        "1.7/beta": {
+          "revision": "464",
+          "confinement": "classic",
+          "version": "1.7.16",
+          "channel": "1.7/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 24031232,
+          "released-at": "2018-10-17T14:45:43.735371Z"
+        },
+        "1.7/candidate": {
+          "revision": "464",
+          "confinement": "classic",
+          "version": "1.7.16",
+          "channel": "1.7/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 24031232,
+          "released-at": "2018-10-17T14:45:45.164611Z"
+        },
+        "1.7/edge": {
+          "revision": "464",
+          "confinement": "classic",
+          "version": "1.7.16",
+          "channel": "1.7/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 24031232,
+          "released-at": "2018-10-17T14:40:54.419818Z"
+        },
+        "1.7/stable": {
+          "revision": "394",
+          "confinement": "classic",
+          "version": "1.7.16",
+          "channel": "1.7/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 24031232,
+          "released-at": "2018-06-06T23:50:57.937189Z"
+        },
+        "1.8/beta": {
+          "revision": "465",
+          "confinement": "classic",
+          "version": "1.8.15",
+          "channel": "1.8/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22560768,
+          "released-at": "2018-10-17T15:00:55.991516Z"
+        },
+        "1.8/candidate": {
+          "revision": "465",
+          "confinement": "classic",
+          "version": "1.8.15",
+          "channel": "1.8/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22560768,
+          "released-at": "2018-10-17T15:00:57.886679Z"
+        },
+        "1.8/edge": {
+          "revision": "465",
+          "confinement": "classic",
+          "version": "1.8.15",
+          "channel": "1.8/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22560768,
+          "released-at": "2018-10-17T14:56:25.711756Z"
+        },
+        "1.8/stable": {
+          "revision": "435",
+          "confinement": "classic",
+          "version": "1.8.15",
+          "channel": "1.8/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22560768,
+          "released-at": "2018-07-11T23:11:29.756267Z"
+        },
+        "1.9/beta": {
+          "revision": "466",
+          "confinement": "classic",
+          "version": "1.9.11",
+          "channel": "1.9/beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 23818240,
+          "released-at": "2018-10-17T15:21:28.176194Z"
+        },
+        "1.9/candidate": {
+          "revision": "466",
+          "confinement": "classic",
+          "version": "1.9.11",
+          "channel": "1.9/candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 23818240,
+          "released-at": "2018-10-17T15:21:29.566965Z"
+        },
+        "1.9/edge": {
+          "revision": "466",
+          "confinement": "classic",
+          "version": "1.9.11",
+          "channel": "1.9/edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 23818240,
+          "released-at": "2018-10-17T15:13:40.352658Z"
+        },
+        "1.9/stable": {
+          "revision": "454",
+          "confinement": "classic",
+          "version": "1.9.11",
+          "channel": "1.9/stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 23818240,
+          "released-at": "2018-10-08T20:20:05.044455Z"
+        },
+        "latest/beta": {
+          "revision": "703",
+          "confinement": "classic",
+          "version": "1.13.2",
+          "channel": "beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22671360,
+          "released-at": "2019-01-12T00:07:54.7011Z"
+        },
+        "latest/candidate": {
+          "revision": "703",
+          "confinement": "classic",
+          "version": "1.13.2",
+          "channel": "candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22671360,
+          "released-at": "2019-01-12T00:07:57.452996Z"
+        },
+        "latest/edge": {
+          "revision": "703",
+          "confinement": "classic",
+          "version": "1.13.2",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22671360,
+          "released-at": "2019-01-12T00:07:51.910358Z"
+        },
+        "latest/stable": {
+          "revision": "704",
+          "confinement": "classic",
+          "version": "1.13.2",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 22671360,
+          "released-at": "2019-01-19T23:53:31.695203Z"
+        }
+      },
+      "tracks": [
+        "latest",
+        "1.14",
+        "1.13",
+        "1.12",
+        "1.11",
+        "1.10",
+        "1.9",
+        "1.8",
+        "1.7",
+        "1.6",
+        "1.5"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

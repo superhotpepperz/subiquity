@@ -7,17 +7,23 @@
       "id": "J60k4JY0HppjwOjW8dZdYc8obXKxujRu",
       "title": "LXD",
       "summary": "System container manager and API",
-      "description": "LXD is a container manager for system containers.\r\n\r\nIt offers a REST API to remotely manage containers over the network, using an image based workflow and with support for live migration.\r\n\r\nImages are available for all Ubuntu releases and architectures as well as for a wide number of other Linux distributions.\r\n\r\nLXD containers are lightweight, secure by default and a great alternative to virtual machines.",
-      "download-size": 57028608,
+      "description": "LXD is a system container manager.\n\nWith LXD you can run hundreds of containers of a variety of Linux \ndistributions, apply resource limits, pass in directories, USB devices\nor GPUs and setup any network and storage you want.\n\nPre-made images are available for Ubuntu, Alpine Linux, ArchLinux, \nCentOS, Debian, Fedora, Gentoo, OpenSUSE and more.\n\nLXD is network aware and all interactions go through a simple REST API, \nmaking it possible to remotely interact with containers on remote\nsystems, copying and moving them as you wish.\n\nWant to go big? LXD also has built-in clustering support,\nletting you turn dozens of servers into one big LXD server.\n\nLXD containers are lightweight, secure by default and a great \nalternative to running Linux virtual machines.\n\nSupported options for the LXD snap (snap set lxd [<key>=<value>...]):\n - criu.enable: Enable experimental live-migration support [default=false]\n - daemon.debug: Increases logging to debug level [default=false]\n - daemon.group: Group of users that can interact with LXD [default=lxd]\n - ceph.builtin: Use snap-specific ceph configuration [default=false]\n - openvswitch.builtin: Run a snap-specific OVS daemon [default=false]\n\nLXD documentation can be found at: https://lxd.readthedocs.io",
+      "download-size": 54530048,
       "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/containers.png",
       "name": "lxd",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
       "developer": "canonical",
       "status": "available",
       "type": "app",
-      "version": "git-67bd283",
-      "channel": "edge",
+      "version": "3.9",
+      "channel": "stable",
       "ignore-validation": false,
-      "revision": "7300",
+      "revision": "9919",
       "confinement": "strict",
       "private": false,
       "devmode": false,
@@ -26,87 +32,190 @@
       "license": "Apache-2.0",
       "screenshots": [
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/lxd.png"
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_12-57-24.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_14-20-14.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_14-21-43.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/containers.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_12-57-24.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_14-20-14.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_14-21-43.png"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=RnBu7t2wD4U"
         }
       ],
       "channels": {
         "2.0/candidate": {
-          "revision": "7209",
+          "revision": "8023",
           "confinement": "strict",
           "version": "2.0.11",
           "channel": "2.0/candidate",
-          "epoch": "0",
-          "size": 28360704
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 28418048,
+          "released-at": "2018-07-27T03:03:53.553294Z"
         },
         "2.0/edge": {
-          "revision": "7206",
+          "revision": "9257",
           "confinement": "strict",
-          "version": "git-e48b686",
+          "version": "git-c7c4cc8",
           "channel": "2.0/edge",
-          "epoch": "0",
-          "size": 26198016
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 26378240,
+          "released-at": "2018-10-19T17:08:02.002368Z"
         },
         "2.0/stable": {
-          "revision": "7209",
+          "revision": "8023",
           "confinement": "strict",
           "version": "2.0.11",
           "channel": "2.0/stable",
-          "epoch": "0",
-          "size": 28360704
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 28418048,
+          "released-at": "2018-07-30T14:00:51.969648Z"
         },
         "3.0/candidate": {
-          "revision": "7270",
+          "revision": "9942",
           "confinement": "strict",
-          "version": "3.0.0",
+          "version": "3.0.3",
           "channel": "3.0/candidate",
-          "epoch": "0",
-          "size": 56922112
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 53432320,
+          "released-at": "2019-01-19T11:02:01.235756Z"
         },
         "3.0/edge": {
-          "revision": "7284",
+          "revision": "9940",
           "confinement": "strict",
-          "version": "git-2273754",
+          "version": "git-18c9b88",
           "channel": "3.0/edge",
-          "epoch": "0",
-          "size": 56918016
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 53440512,
+          "released-at": "2019-01-19T10:44:55.499876Z"
         },
         "3.0/stable": {
-          "revision": "7270",
+          "revision": "9663",
           "confinement": "strict",
-          "version": "3.0.0",
+          "version": "3.0.3",
           "channel": "3.0/stable",
-          "epoch": "0",
-          "size": 56922112
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 53202944,
+          "released-at": "2018-11-26T16:49:54.766747Z"
         },
         "latest/candidate": {
-          "revision": "7275",
+          "revision": "9919",
           "confinement": "strict",
-          "version": "3.1",
+          "version": "3.9",
           "channel": "candidate",
-          "epoch": "0",
-          "size": 57008128
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 54530048,
+          "released-at": "2019-01-18T09:50:36.731966Z"
         },
         "latest/edge": {
-          "revision": "7300",
+          "revision": "9974",
           "confinement": "strict",
-          "version": "git-67bd283",
+          "version": "git-359bf73",
           "channel": "edge",
-          "epoch": "0",
-          "size": 57028608
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 54550528,
+          "released-at": "2019-01-29T21:51:31.725902Z"
         },
         "latest/stable": {
-          "revision": "7275",
+          "revision": "9919",
           "confinement": "strict",
-          "version": "3.1",
+          "version": "3.9",
           "channel": "stable",
-          "epoch": "0",
-          "size": 57008128
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 54530048,
+          "released-at": "2019-01-18T11:08:22.939203Z"
         }
       },
       "tracks": [
         "latest",
-        "2.0",
-        "3.0"
+        "3.0",
+        "2.0"
       ]
     }
   ],

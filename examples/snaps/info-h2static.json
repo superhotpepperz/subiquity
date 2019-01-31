@@ -1,0 +1,75 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "miU2SKGOyKZkpzOcj7NZxhuKfMGNGfyw",
+      "title": "h2static",
+      "summary": "Tiny static web server with TLS and HTTP/2 support",
+      "description": "Static web server using the builtin Go http library.\n\nIt supports HTTP/2 and TLS.\n\nThis snap provides both an command \"h2static\" that can be run by any user,\nwith access to the user home directory, and a system-wide daemon.\n\nThe daemon is configured with the following options:\n\n  - listen\n\n    the \"address:port\" for the service to listen on. The address can be\n    omitted (e.g. :8080) to bind all addresses.\n\n    If this option is not set, the service will not be started.\n\n  - serve-path\n\n    the directory to serve content from. it's set to $SNAP_COMMON if not\n    specified.\n\n    If the \"removable-media\" interface is connected, a path under /media can\n    also be used.\n\n  - disable-h2\n\n    set to true to disable HTTP/2 support.\n\n  - tls.cert, tls.key\n\n    ASCII content of the TLS certificate. If both are set, HTTPS support will\n    be enabled.\n",
+      "download-size": 3072000,
+      "name": "h2static",
+      "publisher": {
+        "id": "1A4j65y5oe5F3jKS1VHKYDsYmYASGIQu",
+        "username": "ack",
+        "display-name": "Alberto Donato",
+        "validation": "unproven"
+      },
+      "developer": "ack",
+      "status": "available",
+      "type": "app",
+      "version": "1.0.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "14",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/albertodonato/h2static/issues",
+      "license": "LGPL-3.0",
+      "channels": {
+        "latest/edge": {
+          "revision": "33",
+          "confinement": "strict",
+          "version": "1.0.0+git3.538438a",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 3072000,
+          "released-at": "2019-01-30T09:04:51.474321Z"
+        },
+        "latest/stable": {
+          "revision": "14",
+          "confinement": "strict",
+          "version": "1.0.0",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 3072000,
+          "released-at": "2019-01-26T10:07:10.169001Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

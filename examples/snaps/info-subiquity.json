@@ -1,0 +1,75 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "ba2aj8guta0zSRlT3QM5aJNAUXPlBtf9",
+      "title": "subiquity",
+      "summary": "Ubuntu installer",
+      "description": "The Ubuntu server installer",
+      "download-size": 51007488,
+      "name": "subiquity",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "0+git.dfe61a0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "664",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:mathieu.trudel-lapierre@canonical.com",
+      "license": "AGPL-3.0",
+      "channels": {
+        "latest/edge": {
+          "revision": "668",
+          "confinement": "classic",
+          "version": "0+git.0e844cc",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 51007488,
+          "released-at": "2018-12-19T01:41:50.527069Z"
+        },
+        "latest/stable": {
+          "revision": "664",
+          "confinement": "classic",
+          "version": "0+git.dfe61a0",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 51007488,
+          "released-at": "2018-12-18T02:13:19.302008Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

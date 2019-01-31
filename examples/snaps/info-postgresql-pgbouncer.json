@@ -1,0 +1,59 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "jdStYu24h466vcpYF3V28zDplC2NEcjy",
+      "title": "postgresql-pgbouncer",
+      "summary": "Lightweight connection pooler for PostgreSQL",
+      "description": "Lightweight connection pooler for PostgreSQL",
+      "download-size": 643072,
+      "name": "postgresql-pgbouncer",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
+      "developer": "cmd",
+      "status": "available",
+      "type": "app",
+      "version": "1.7.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "2",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "Proprietary",
+      "channels": {
+        "latest/stable": {
+          "revision": "2",
+          "confinement": "strict",
+          "version": "1.7.2",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 643072,
+          "released-at": "2017-05-17T21:18:14.588292Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

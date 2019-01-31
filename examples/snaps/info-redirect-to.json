@@ -1,0 +1,92 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "givNyNnRpoCnmVXPQxL4p6QggKiW92cs",
+      "title": "redirect-to",
+      "summary": "Simple, very fast, in a single binary, with web UI HTTP redirect service",
+      "description": "Simple, very fast, in a single binary, with web UI HTTP redirect service.\nContains embedded UI that allows you check add/update/remove rules online and\ncheck how many hits you rules collected\n\nSource code licensed under MIT and can be obtained via https://github.com/reddec/redirect",
+      "download-size": 4001792,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/icon.svg_mS7EJSV.png",
+      "name": "redirect-to",
+      "publisher": {
+        "id": "NWwduO9fqgMFqPCvNo462SR01BNyLsSj",
+        "username": "reddec",
+        "display-name": "Baryshnikov Aleksandr",
+        "validation": "unproven"
+      },
+      "developer": "reddec",
+      "status": "available",
+      "type": "app",
+      "version": "0+git.a86ecce",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "17",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:owner@reddec.net",
+      "license": "MIT",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/redirect_ui.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/icon.svg_mS7EJSV.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/redirect_ui.png"
+        }
+      ],
+      "channels": {
+        "latest/edge": {
+          "revision": "26",
+          "confinement": "strict",
+          "version": "0+git.a86ecce",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 4001792,
+          "released-at": "2019-01-28T09:53:41.907773Z"
+        },
+        "latest/stable": {
+          "revision": "17",
+          "confinement": "strict",
+          "version": "0+git.a86ecce",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 4001792,
+          "released-at": "2019-01-28T08:58:31.332873Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

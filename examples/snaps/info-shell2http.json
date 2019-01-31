@@ -1,0 +1,75 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "KjWWkhvVGQz3C83ZKRbhx6jumckOuN5R",
+      "title": "shell2http",
+      "summary": "Executing shell commands via HTTP server",
+      "description": "HTTP-server for executing shell commands. Designed for develop, prototype or remote control.\nSettings through two command line arguments, path and shell command.\nBy default bind to :8080.\nhttps://github.com/msoap/shell2http",
+      "download-size": 2232320,
+      "name": "shell2http",
+      "publisher": {
+        "id": "6J1iR5GsHUUUGFlBG7YwylyrDNfpsMsb",
+        "username": "msoap",
+        "display-name": "Sergey Mudrik",
+        "validation": "unproven"
+      },
+      "developer": "msoap",
+      "status": "available",
+      "type": "app",
+      "version": "1.13",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "68",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "MIT",
+      "channels": {
+        "latest/edge": {
+          "revision": "85",
+          "confinement": "strict",
+          "version": "1.13",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 2232320,
+          "released-at": "2019-01-10T20:26:30.860612Z"
+        },
+        "latest/stable": {
+          "revision": "68",
+          "confinement": "strict",
+          "version": "1.13",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 2232320,
+          "released-at": "2018-11-14T20:17:29.711344Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

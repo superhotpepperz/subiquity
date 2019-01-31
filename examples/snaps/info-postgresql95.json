@@ -1,0 +1,114 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "1zy3uUavfmiDDJGndmJytxjhErpnxf0n",
+      "title": "postgresql95",
+      "summary": "PostgreSQL is a powerful, open source object-relational database system.",
+      "description": "PostgreSQL is a powerful, open source object-relational database system. It has more than 15 years of active development and a proven architecture that has earned it a strong reputation for reliability, data integrity, and correctness.",
+      "download-size": 36757504,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/10/postgresql-icon-256x256.jpg_2.png",
+      "name": "postgresql95",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
+      "developer": "cmd",
+      "status": "available",
+      "type": "app",
+      "version": "9.5.13",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "49",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:community@commandprompt.com",
+      "license": "Other Open Source",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/10/postgresql-icon-256x256.jpg_2.png"
+        }
+      ],
+      "channels": {
+        "latest/beta": {
+          "revision": "4",
+          "confinement": "strict",
+          "version": "9.5.5",
+          "channel": "beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 34308096,
+          "released-at": "2017-05-17T21:17:53.705403Z"
+        },
+        "latest/candidate": {
+          "revision": "4",
+          "confinement": "strict",
+          "version": "9.5.5",
+          "channel": "candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 34308096,
+          "released-at": "2017-05-17T21:17:53.706051Z"
+        },
+        "latest/edge": {
+          "revision": "4",
+          "confinement": "strict",
+          "version": "9.5.5",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 34308096,
+          "released-at": "2017-05-17T21:17:53.705909Z"
+        },
+        "latest/stable": {
+          "revision": "49",
+          "confinement": "strict",
+          "version": "9.5.13",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 36757504,
+          "released-at": "2018-05-11T11:55:54.520954Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}

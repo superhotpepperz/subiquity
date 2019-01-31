@@ -4,20 +4,284 @@
   "status": "OK",
   "result": [
     {
+      "id": "EaXqgt1lyCaxKaQCU349mlodBkDCXRcg",
+      "title": "MicroK8s",
+      "summary": "Kubernetes for workstations and appliances",
+      "description": "MicroK8s is a small, fast, secure, single node Kubernetes that installs on just about any Linux box. Use it for offline development, prototyping, testing, or use it on a VM as a small, cheap, reliable k8s for CI/CD. It's also a great k8s for appliances - develop your IoT apps for k8s and deploy them to MicroK8s on your boxes.",
+      "download-size": 229523456,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/b8a85a31-MicroK8s_SnapStore_icon.png",
+      "name": "microk8s",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "v1.13.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "383",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/ubuntu/microk8s",
+      "license": "Apache-2.0",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/m2.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/microk8s1.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/m3.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/b8a85a31-MicroK8s_SnapStore_icon.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/m2.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/microk8s1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/m3.png"
+        }
+      ]
+    },
+    {
+      "id": "njObIbGQEaVx1H4nyWxchk1i8opy4h54",
+      "title": "Nextcloud",
+      "summary": "Nextcloud Server - A safe home for all your data",
+      "description": "Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at school, a Dropbox or a NAS you have at home.",
+      "download-size": 184479744,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/06/icon.svg_1.png",
+      "name": "nextcloud",
+      "publisher": {
+        "id": "lBnslZGp88VvX4EJSAvS2AG2Iryb1MNU",
+        "username": "nextcloud",
+        "display-name": "Nextcloud",
+        "validation": "verified"
+      },
+      "developer": "nextcloud",
+      "status": "available",
+      "type": "app",
+      "version": "14.0.6snap1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "11130",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/nextcloud/nextcloud-snap",
+      "license": "AGPL-3.0+",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_09-49-46.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_09-48-50.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/06/icon.svg_1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_09-49-46.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_09-48-50.png"
+        }
+      ]
+    },
+    {
+      "id": "oTlBRwmiNP4yYPYhhAipQPZ5RPvOpuOm",
+      "title": "kata-containers",
+      "summary": "Lightweight virtual machines that seamlessly plug into the containers ecosystem",
+      "description": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs",
+      "download-size": 56729600,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/07/33289952.png",
+      "name": "kata-containers",
+      "publisher": {
+        "id": "tN53rTX0uT47Sk1mau6s2xEF6yGWhGFy",
+        "username": "katacontainers",
+        "display-name": "Kata Containers",
+        "validation": "verified"
+      },
+      "developer": "katacontainers",
+      "status": "available",
+      "type": "app",
+      "version": "1.5.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "31",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://katacontainers.io/",
+      "license": "Apache-2.0 OR BSD-2-Clause OR BSD-3-Clause-Clear OR GPL-2.0 OR LGPL-2.1 OR MIT",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/07/Screenshot_from_2018-07-02_13-29-47.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/07/33289952.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/07/Screenshot_from_2018-07-02_13-29-47.png"
+        }
+      ]
+    },
+    {
+      "id": "sLCsFAO8PKM5Z0fAKNszUOX0YASjQfeZ",
+      "title": "Docker",
+      "summary": "Docker container runtime",
+      "description": "Build and run container images with Docker.\n\nThis build requires all files that Docker uses, such as dockerfiles, to be in $HOME. Keep files there for 'docker build', 'docker save' and 'docker load'. Use the 'docker-privilege' command for 'docker run --privileged'.\n\nThis snap is built by Canonical based on source code published by Docker, Inc. It is not endorsed or published by Docker, Inc.\n\nDocker and the Docker logo are trademarks or registered trademarks of Docker, Inc. in the United States and/or other countries. Docker, Inc. and other parties may also have trademark rights in other terms used herein.",
+      "download-size": 102203392,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/12/6fbb3483-snapcraft-default-snap-icon.svg.png",
+      "name": "docker",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "18.06.1-ce",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "321",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snappy-devel@lists.ubuntu.com",
+      "license": "Apache-2.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/12/6fbb3483-snapcraft-default-snap-icon.svg.png"
+        }
+      ]
+    },
+    {
+      "id": "MJbt3BgxESyOON7gqKVEnA06NLRM3Dxd",
+      "title": "Google Cloud SDK",
+      "summary": "Command-line interface for Google Cloud Platform products and services",
+      "description": "Command-line interface for Google Cloud Platform products and services",
+      "download-size": 57602048,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/04/cloud_icon_256.png",
+      "name": "google-cloud-sdk",
+      "publisher": {
+        "id": "8jqpPuIFTqQqlIUH9g14nscj1im4BBnl",
+        "username": "google-cloud-sdk",
+        "display-name": "Cloud SDK",
+        "validation": "verified"
+      },
+      "developer": "google-cloud-sdk",
+      "status": "available",
+      "type": "app",
+      "version": "232.0.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "68",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://cloud.google.com/sdk/docs/",
+      "license": "Apache-2.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/04/cloud_icon_256.png"
+        }
+      ]
+    },
+    {
+      "id": "b96UJ4vttpNhpbaCWctVzfduQcPwQ5wn",
+      "title": "canonical-livepatch",
+      "summary": "Canonical Livepatch Client",
+      "description": "Canonical Livepatch Client",
+      "download-size": 7811072,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/pictogram-upgrade-orange-hex.svg.png",
+      "name": "canonical-livepatch",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "8.1.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "54",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snaps@canonical.com",
+      "license": "Proprietary",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/pictogram-upgrade-orange-hex.svg.png"
+        }
+      ]
+    },
+    {
       "id": "wdBUbiEuMNHmAHLBCXQXOcXaOCvbWS1e",
       "title": "Rocket.Chat Server",
       "summary": "Group chat server for 100s,  installed in seconds.",
       "description": "Slack-like online chat server for your office, group or family.   Up and running in seconds. Supports file sharing, video conference, geolocation, and much more.   Web and mobile client.   MIT licensed Open Source project.   List of features at  https://rocket.chat/ ,  MIT licensed source code at https://github.com/RocketChat/Rocket.Chat , 24 x 7 community support and community server at https://open.rocket.chat/",
-      "download-size": 218386432,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/1024x1024-circle.png",
+      "download-size": 234635264,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/12/icon-256.png",
       "name": "rocketchat-server",
+      "publisher": {
+        "id": "fKx24MRbDHk3JEy6Zaep0I4ydbhE0mJG",
+        "username": "rocketchat",
+        "display-name": "Rocket.Chat",
+        "validation": "verified"
+      },
       "developer": "rocketchat",
       "status": "available",
       "type": "app",
-      "version": "0.64.2",
+      "version": "0.73.2",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "1265",
+      "revision": "1362",
       "confinement": "strict",
       "private": false,
       "devmode": false,
@@ -26,62 +290,198 @@
       "license": "MIT",
       "screenshots": [
         {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.44.26.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.45.00.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.45.35.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.47.10.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.48.31.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-03-09_at_20.15.01.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-03-18_at_18.00.07.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/12/icon-256.png"
+        },
+        {
+          "type": "screenshot",
           "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.44.26.png"
         },
         {
+          "type": "screenshot",
           "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.45.00.png"
         },
         {
+          "type": "screenshot",
           "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.45.35.png"
         },
         {
+          "type": "screenshot",
           "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.47.10.png"
         },
         {
+          "type": "screenshot",
           "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-02-22_at_21.48.31.png"
         },
         {
+          "type": "screenshot",
           "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-03-09_at_20.15.01.png"
         },
         {
+          "type": "screenshot",
           "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/Screen_Shot_2016-03-18_at_18.00.07.png"
         }
       ]
     },
     {
-      "id": "njObIbGQEaVx1H4nyWxchk1i8opy4h54",
-      "title": "Nextcloud",
-      "summary": "Nextcloud Server - A safe home for all your data",
-      "description": "Access, share and protect your files, calendars, contacts, communication and more at home and in your enterprise.",
-      "download-size": 205299712,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/06/icon.svg_1.png",
-      "name": "nextcloud",
-      "developer": "nextcloud",
+      "id": "J60k4JY0HppjwOjW8dZdYc8obXKxujRu",
+      "title": "LXD",
+      "summary": "System container manager and API",
+      "description": "LXD is a system container manager.\n\nWith LXD you can run hundreds of containers of a variety of Linux \ndistributions, apply resource limits, pass in directories, USB devices\nor GPUs and setup any network and storage you want.\n\nPre-made images are available for Ubuntu, Alpine Linux, ArchLinux, \nCentOS, Debian, Fedora, Gentoo, OpenSUSE and more.\n\nLXD is network aware and all interactions go through a simple REST API, \nmaking it possible to remotely interact with containers on remote\nsystems, copying and moving them as you wish.\n\nWant to go big? LXD also has built-in clustering support,\nletting you turn dozens of servers into one big LXD server.\n\nLXD containers are lightweight, secure by default and a great \nalternative to running Linux virtual machines.\n\nSupported options for the LXD snap (snap set lxd [<key>=<value>...]):\n - criu.enable: Enable experimental live-migration support [default=false]\n - daemon.debug: Increases logging to debug level [default=false]\n - daemon.group: Group of users that can interact with LXD [default=lxd]\n - ceph.builtin: Use snap-specific ceph configuration [default=false]\n - openvswitch.builtin: Run a snap-specific OVS daemon [default=false]\n\nLXD documentation can be found at: https://lxd.readthedocs.io",
+      "download-size": 54530048,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/containers.png",
+      "name": "lxd",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
       "status": "available",
       "type": "app",
-      "version": "13.0.2snap1",
+      "version": "3.9",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "6916",
+      "revision": "9919",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "https://github.com/nextcloud/nextcloud-snap",
-      "license": "AGPL-3.0+"
+      "contact": "https://github.com/lxc/lxd/issues",
+      "license": "Apache-2.0",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_12-57-24.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_14-20-14.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_14-21-43.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/containers.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_12-57-24.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_14-20-14.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/Screenshot_from_2018-10-26_14-21-43.png"
+        }
+      ]
     },
     {
-      "id": "jtpboSYvTCEyHoutkkRo1SI9ioSMOUb3",
-      "title": "Wekan",
-      "summary": "The open-source Trello-like kanban",
-      "description": "Wekan is an open-source and collaborative kanban board application.\r\n\r\nWhether you’re maintaining a personal todo list, planning your holidays with some friends, or working in a team on your next revolutionary idea, Kanban boards are an unbeatable tool to keep your things organized. They give you a visual overview of the current state of your project, and make you productive by allowing you to focus on the few items that matter the most.\r\nDepending on target environment, some configuration settings might need to be adjusted.\r\nFor full list of configuration options call:\r\n$ wekan.help",
-      "download-size": 148783104,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/-NNP9RC0.png",
-      "name": "wekan",
-      "developer": "xet7",
+      "id": "mDxT0cGOHKSs62MOHSK5Ype0Na5UU2LB",
+      "title": "mosquitto",
+      "summary": "Eclipse Mosquitto MQTT broker",
+      "description": "This is a message broker that supports version 3.1 and 3.1.1 of the MQTT protocol. MQTT provides a method of carrying out messaging using a publish/subscribe model. It is lightweight, both in terms of bandwidth usage and ease of implementation. This makes it particularly useful at the edge of the network where a sensor or other simple device may be implemented using an arduino for example.\n\nBy default mosquitto will be installed as a system service, using the default configuration at /var/snap/mosquitto/common/default_config.conf. If this does not meet your needs, create the file /var/snap/mosquitto/common/mosquitto.conf and this will be used instead.  Note that only files inside /var/snap/mosquitto/common can be read by mosquitto, you cannot put other configuration files in /etc/mosquitto.",
+      "download-size": 1896448,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/08/mosquitto-logo-only.svg.png",
+      "name": "mosquitto",
+      "publisher": {
+        "id": "l5m6dy7O2H7mosoJSwmhRa2ZA0H6yGt1",
+        "username": "ralight",
+        "display-name": "Roger Light",
+        "validation": "unproven"
+      },
+      "developer": "ralight",
       "status": "available",
       "type": "app",
-      "version": "1.02",
+      "version": "1.5.5",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "121",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://mosquitto.org/",
+      "license": "EPL-1.0",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/mosquitto_dbIlbAp.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/mosquitto_sub_d1aBoJH.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/08/mosquitto-logo-only.svg.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/mosquitto_dbIlbAp.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/mosquitto_sub_d1aBoJH.png"
+        }
+      ]
+    },
+    {
+      "id": "TKebVGcPeDKoOqAmNmczU2oWLtsojKD5",
+      "title": "etcd",
+      "summary": "Resilient key-value store by CoreOS",
+      "description": "Etcd is a high availability key-value store, implementing the RAFT\nalgorithm to deal with failover within the etcd cluster.  Popular\nin the Docker community as a shared store of small but important\ndata in a distributed application.\n",
+      "download-size": 12242944,
+      "name": "etcd",
+      "publisher": {
+        "id": "QEwAyyCvRi94mPVg716mMtiFmNQjMjh6",
+        "username": "tvansteenburgh",
+        "display-name": "Tim Van Steenburgh",
+        "validation": "unproven"
+      },
+      "developer": "tvansteenburgh",
+      "status": "available",
+      "type": "app",
+      "version": "3.2.10",
       "channel": "stable",
       "ignore-validation": false,
       "revision": "202",
@@ -89,21 +489,402 @@
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "",
-      "license": "MIT",
+      "contact": "mailto:snaps@canonical.com",
+      "license": "Other Open Source"
+    },
+    {
+      "id": "xbKFilZvKsEXegCPaOjd0eN7qucKsM92",
+      "title": "sabnzbd",
+      "summary": "SABnzbd",
+      "description": "The automated Usenet download tool. SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
+      "download-size": 134926336,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/icon.svg_WxcxD3g.png",
+      "name": "sabnzbd",
+      "publisher": {
+        "id": "ALlEHtUfvo3ZaFd6RGeIT0nF2lW0kk6f",
+        "username": "safihre",
+        "display-name": "Safihre",
+        "validation": "unproven"
+      },
+      "developer": "safihre",
+      "status": "available",
+      "type": "app",
+      "version": "2.3.7",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "217",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/sabnzbd/sabnzbd/issues",
+      "license": "GPL-2.0+",
       "screenshots": [
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/02/wekan-markdown.png"
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/file-lists.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/history-details.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/interface.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/phone-interface.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/night-mode.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/10/icon.svg_WxcxD3g.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/file-lists.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/history-details.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/interface.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/phone-interface.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/night-mode.png"
         }
       ]
     },
     {
+      "id": "CRrJViJiSuDcCkU31G0xpNRVNaj4P960",
+      "title": "aws-cli",
+      "summary": "Universal Command Line Interface for Amazon Web Services",
+      "description": "The AWS CLI is an open source tool built on top of the AWS SDK for Python (Boto) that provides commands for interacting with AWS services. With minimal configuration, you can start using all of the functionality provided by the AWS Management Console from your favorite terminal program.",
+      "download-size": 15851520,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/copy_1.ico.png",
+      "name": "aws-cli",
+      "publisher": {
+        "id": "S7iQ7mKDXBDliQqRcgefvc2TKXIH9pYk",
+        "username": "aws",
+        "display-name": "Amazon Web Services",
+        "validation": "verified"
+      },
+      "developer": "aws",
+      "status": "available",
+      "type": "app",
+      "version": "1.15.71",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "135",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://console.aws.amazon.com/support",
+      "license": "Apache-2.0",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/Screen_Shot_2017-06-07_at_8.16.09_AM.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/copy_1.ico.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/Screen_Shot_2017-06-07_at_8.16.09_AM.png"
+        }
+      ]
+    },
+    {
+      "id": "37RaX7lHS7bKamfcFcXcx27EyAaCIzgG",
+      "title": "doctl",
+      "summary": "DigitalOcean command line tool",
+      "description": "Command-line tool for DigitalOcean services.",
+      "download-size": 3710976,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/03/do.png",
+      "name": "doctl",
+      "publisher": {
+        "id": "610MDSzhxnBJry4qv9lMaZHGdcIP51sA",
+        "username": "digitalocean",
+        "display-name": "DigitalOcean",
+        "validation": "verified"
+      },
+      "developer": "digitalocean",
+      "status": "available",
+      "type": "app",
+      "version": "1.9.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "18",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/digitalocean/doctl/issues",
+      "license": "Apache-2.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/03/do.png"
+        }
+      ]
+    },
+    {
+      "id": "ijQR4HjYlTAmIjELJm5XCpNAqbDZWJ3h",
+      "title": "conjure-up",
+      "summary": "Package runtime for conjure-up spells",
+      "description": "This package provides conjure-up, an interface to installing spells that provide the user with an end to end walkthrough experience for installing and using big software.\n",
+      "download-size": 109809664,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/icon_12.png",
+      "name": "conjure-up",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "2.6.4-20181213.2312",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "1039",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/conjure-up/conjure-up",
+      "license": "MIT",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/application-config.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/application-list.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/bootstrap-wait.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/cloud-selection.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/deploy-status.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/spell-selection.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/steps-config.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/summary.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/icon_12.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/application-config.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/application-list.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/bootstrap-wait.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/cloud-selection.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/deploy-status.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/spell-selection.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/steps-config.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/summary.png"
+        }
+      ]
+    },
+    {
+      "id": "pCSVMU1bUNCUbH0bAszxzXtMFxGYQMlp",
+      "title": "minidlna",
+      "summary": "server software with the aim of being fully compliant with DLNA/UPnP clients.",
+      "description": "The MiniDNLA daemon serves media files (music, pictures, and video) to clients on a network.\n\nExample clients include applications such as totem and xbmc, and devices such as portable media players, smartphones, and televisions.\n\nMiniDLNA is a simple, lightweight alternative to MediaTomb, but has fewer features. It does not have a web interface for administration and must be configured by editing a text file.",
+      "download-size": 20729856,
+      "name": "minidlna-escoand",
+      "publisher": {
+        "id": "SM7HUj44K6BPgLFoXdO71vrvMlgde26U",
+        "username": "escoand",
+        "display-name": "escoand",
+        "validation": "unproven"
+      },
+      "developer": "escoand",
+      "status": "available",
+      "type": "app",
+      "version": "1.2.1snap1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "19",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "id": "pAGMQ0HpmF09Smxc9d3ZOUiVNhtWhy7r",
+      "title": "heroku",
+      "summary": "CLI client for Heroku",
+      "description": "The Heroku Command Line Interface (CLI), formerly known as the Heroku Toolbelt, is a tool for creating and managing Heroku apps from the command line / shell of various operating systems.",
+      "download-size": 25411584,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/09/heroku.png",
+      "name": "heroku",
+      "publisher": {
+        "id": "39QuBoEeo9RvCIgiqzikeDw4GkGVx4bd",
+        "username": "heroku",
+        "display-name": "Heroku",
+        "validation": "verified"
+      },
+      "developer": "heroku",
+      "status": "available",
+      "type": "app",
+      "version": "v7.19.4",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "3685",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://cli.heroku.com",
+      "license": "ISC",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/09/Screen_Shot_2017-09-29_at_10.24.11_AM.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/09/heroku.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/09/Screen_Shot_2017-09-29_at_10.24.11_AM.png"
+        }
+      ]
+    },
+    {
+      "id": "V4Z90JuG4d64ycAAl948fM4vWQA9594q",
+      "title": "keepalived",
+      "summary": "High availability VRRP and load-balancing for Linux",
+      "description": "Keepalived is routing software written in C to provide simple and robust\nfacilities for loadbalancing and high-availability to Linux based\ninfrastructures.  Loadbalancing framework relies on well-known Linux\nVirtual Server (IPVS) kernel module providing Layer4 loadbalancing.\nHigh-availability is achieved by VRRP protocol.\n",
+      "download-size": 12132352,
+      "name": "keepalived",
+      "publisher": {
+        "id": "ExPLzHya8nISOTuxbZXUb8XQ0yOHhizK",
+        "username": "sabdfl",
+        "display-name": "Mark Shuttleworth",
+        "validation": "unproven"
+      },
+      "developer": "sabdfl",
+      "status": "available",
+      "type": "app",
+      "base": "core18",
+      "version": "2.0.10",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "283",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:mark@ubuntu.com",
+      "license": "GPL-2.0"
+    },
+    {
+      "id": "T09mpujiTnzSdSCuqNkE7YXXTWDq13tC",
+      "title": "amazon-ssm-agent",
+      "summary": "Agent to enable remote management of your Amazon EC2 instance configuration",
+      "description": "The SSM Agent runs on EC2 instances and enables you to quickly and easily\nexecute remote commands or scripts against one or more instances. The agent\nuses SSM documents. When you execute a command, the agent on the instance\nprocesses the document and configures the instance as specified. Currently,\nthe SSM Agent and Run Command enable you to quickly run Shell scripts on an\ninstance using the AWS-RunShellScript SSM document.\n",
+      "download-size": 18812928,
+      "name": "amazon-ssm-agent",
+      "publisher": {
+        "id": "S7iQ7mKDXBDliQqRcgefvc2TKXIH9pYk",
+        "username": "aws",
+        "display-name": "Amazon Web Services",
+        "validation": "verified"
+      },
+      "developer": "aws",
+      "status": "available",
+      "type": "app",
+      "version": "2.3.274.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "930",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "Apache-2.0"
+    },
+    {
       "id": "We2QH1ClwGL6V88RJRWuZPWaBBPuzWPL",
       "title": "prometheus",
-      "summary": "Unofficial Prometheus snap package",
-      "description": "Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.\r\n",
+      "summary": "The Prometheus monitoring system and time series database",
+      "description": "Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.\n",
       "download-size": 14331904,
       "name": "prometheus",
+      "publisher": {
+        "id": "IJ1Iesv3hhEPHuegj7b3zvPLOh8wZs34",
+        "username": "jacek",
+        "display-name": "Jacek Nykis",
+        "validation": "unproven"
+      },
       "developer": "jacek",
       "status": "available",
       "type": "app",
@@ -119,234 +900,669 @@
       "license": "Apache-2.0"
     },
     {
-      "id": "NOZSH62zMXFazJq0adh8ztBM7VYNPxmP",
-      "title": "wormhole",
-      "summary": "get things from one computer to another, safely",
-      "description": "This package provides a library and a command-line tool named wormhole, which\nmakes it possible to get arbitrary-sized files and directories (or short\npieces of text) from one computer to another. The two endpoints are identified\nby using identical \"wormhole codes\": in general, the sending machine generates\nand displays the code, which must then be typed into the receiving machine.\n",
-      "download-size": 14331904,
-      "name": "wormhole",
-      "developer": "snapcrafters",
-      "status": "available",
-      "type": "app",
-      "version": "0.10.3",
-      "channel": "stable",
-      "ignore-validation": false,
-      "revision": "23",
-      "confinement": "strict",
-      "private": false,
-      "devmode": false,
-      "jailmode": false,
-      "contact": "https://github.com/snapcrafters/magic-wormhole/issues",
-      "license": "MIT"
-    },
-    {
-      "id": "b96UJ4vttpNhpbaCWctVzfduQcPwQ5wn",
-      "title": "canonical-livepatch",
-      "summary": "Canonical Livepatch Client",
-      "description": "Canonical Livepatch Client",
-      "download-size": 5152768,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/pictogram-upgrade-orange-hex.svg.png",
-      "name": "canonical-livepatch",
+      "id": "e2CPHpB1fUxcKtCyJTsm5t3hN9axJ0yj",
+      "title": "juju",
+      "summary": "juju client",
+      "description": "Juju is an open source modelling tool for operating software in the cloud.  Juju allows you to deploy, configure, manage, maintain, and scale cloud applications quickly and efficiently on public clouds, as well as on physical servers, OpenStack, and in containers. You can use Juju from the command line or through its GUI.\n\nIn modern environments, applications are rarely deployed in isolation. Even simple applications may require several other applications in order to function - like a database and a web server, for example. For modeling a more complex system, e.g. OpenStack, many more applications need to be installed, configured and connected to each other. Juju's application modelling provides tools to express the intent of how to deploy such applications and to subsequently scale and manage them.\n\nAt the lowest level, traditional configuration management tools like Chef and Puppet, or even general scripting languages such as Python or bash, automate the configuration of machines to a particular specification. With Juju, you create a model of the relationships between applications that make up your solution and you have a mapping of the parts of that model to machines. Juju then applies the necessary configuration management scripts to each machine in the model.\n\nApplication-specific knowledge such as dependencies, scale-out practices, operational events like backups and updates, and integration options with other pieces of software are encapsulated in Juju's 'charms'. This knowledge can then be shared between team members, reused everywhere from laptops to virtual machines and cloud, and shared with other organizations.  \n\nThe charm defines everything you all collaboratively know about deploying that particular application brilliantly. All you have to do is use any available charm (or write your own), and the corresponding application will be deployed in seconds, on any cloud or server or virtual machine.\n\nhttps://discourse.jujucharms.com/\nhttps://docs.jujucharms.com/\nhttps://github.com/juju/juju",
+      "download-size": 64921600,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/image-juju-256.svg.png",
+      "name": "juju",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
       "developer": "canonical",
       "status": "available",
       "type": "app",
-      "version": "8.0.2",
+      "version": "2.5.0",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "41",
+      "revision": "6362",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "http://jujucharms.com",
+      "license": "Other Open Source",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/k8s.jpg",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/juju-gui.jpg",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/openstack-store.jpg",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/models-list_uiDEQ4O.jpg",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/image-juju-256.svg.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/k8s.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/juju-gui.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/openstack-store.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/models-list_uiDEQ4O.jpg"
+        }
+      ]
+    },
+    {
+      "id": "0euyIM60JIN6PlZgyL5WB4OaDncn7cBm",
+      "title": "kube-proxy",
+      "summary": "Kubernetes network proxy runs on each node.",
+      "description": "The Kubernetes network proxy runs on each node. This reflects services as\ndefined in the Kubernetes API on each node and can do simple TCP,UDP stream\nforwarding or round robin TCP,UDP forwarding across a set of backends. Service\ncluster ips and ports are currently found through Docker-links-compatible\nenvironment variables specifying ports opened by the service proxy. There is\nan optional addon that provides cluster DNS for these cluster IPs. The user\nmust create a service with the apiserver API to configure the proxy.\n",
+      "download-size": 8658944,
+      "name": "kube-proxy",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "1.13.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "704",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snaps@canonical.com",
+      "license": "Other Open Source"
+    },
+    {
+      "id": "1zy3uUavfmiDDJGndmJytxjhErpnxf0n",
+      "title": "postgresql95",
+      "summary": "PostgreSQL is a powerful, open source object-relational database system.",
+      "description": "PostgreSQL is a powerful, open source object-relational database system. It has more than 15 years of active development and a proven architecture that has earned it a strong reputation for reliability, data integrity, and correctness.",
+      "download-size": 36757504,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/10/postgresql-icon-256x256.jpg_2.png",
+      "name": "postgresql95",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
+      "developer": "cmd",
+      "status": "available",
+      "type": "app",
+      "version": "9.5.13",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "49",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "mailto:snappy-canonical-storeaccount@canonical.com",
+      "contact": "mailto:community@commandprompt.com",
+      "license": "Other Open Source",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/10/postgresql-icon-256x256.jpg_2.png"
+        }
+      ]
+    },
+    {
+      "id": "5YEePglbs8h74jSyykjQC9YvzHN1pg0z",
+      "title": "mOAuth",
+      "summary": "OAuth 2.0 Authorization and Resource Server",
+      "description": "mOAuth is a basic OAuth 2.0 client/server implementation that is geared towards\ntesting and development of OAuth-based services.  The client library supports\nauthorization of native macOS, iOS, and Linux applications with PKCE.\n\nThe server is both an Authorization Server and a Resource Server that supports:\n\n- User account authentication/authorization using PAM\n- Traditional web-based authorization grants with redirection as well as\n  resource owner password credentials grants\n- Token introspection for services\n- Basic Resource Server functionality with implicit and explicit ACLs\n- Customizable web interface",
+      "download-size": 126976,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/moauth-256.png",
+      "name": "moauth",
+      "publisher": {
+        "id": "VcnVREFSE2O57Itfe846nDxJDIdWSB2P",
+        "username": "michaelrsweet",
+        "display-name": "Michael Sweet",
+        "validation": "unproven"
+      },
+      "developer": "michaelrsweet",
+      "status": "available",
+      "type": "app",
+      "version": "1.1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "97",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "Apache-2.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/moauth-256.png"
+        }
+      ]
+    },
+    {
+      "id": "9OWeQaa6pKxtFCKrBWmF6OaZknlHFCL8",
+      "title": "kube-scheduler",
+      "summary": "kube-scheduler controls the Kubernetes cluster manager.",
+      "description": "kube-scheduler is a command line interface for running commands against Kubernetes\nclusters.\n",
+      "download-size": 9154560,
+      "name": "kube-scheduler",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "1.13.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "702",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snaps@canonical.com",
+      "license": "Other Open Source"
+    },
+    {
+      "id": "AQx6aw8fydM77D132dxZP3MxwrlexLBf",
+      "title": "tika-server",
+      "summary": "Tika Server for metadata discovery and extraction",
+      "description": "Apache Tika is a content detection and analysis framework, written in Java, stewarded at the Apache Software Foundation.It detects and extracts metadata and text from over a thousand different file types, and as well as providing a Java library, has server and command-line editions suitable for use from other programming languages.",
+      "download-size": 147468288,
+      "name": "tika-server",
+      "publisher": {
+        "id": "4fGxHAhxSnRoRUBSBGnA3A33vIFac3Ro",
+        "username": "magicaltrout",
+        "display-name": "Tom Barber",
+        "validation": "unproven"
+      },
+      "developer": "magicaltrout",
+      "status": "available",
+      "type": "app",
+      "version": "1.17",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "6",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:info@spicule.co.uk",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "BLigMwxrfwBKQpnk0iQHu8hZts8Fgf2d",
+      "title": "tvheadend",
+      "summary": "TV streaming server supporting DVB, ATSC, IPTV, and SAT>IP",
+      "description": "Tvheadend is a TV streaming server and digital video recorder supporting DVB-S, DVB-S2, DVB-C, DVB-C2, DVB-T, DVB-T2, ATSC, IPTV, SAT>IP and other formats. It can also stream and record from HDHomeRun devices.\nOnce installed use your web browser to navigate to http://<IP-Address>:9981/ (You can use 127.0.0.1 for the IP Address if your browser and tvheadend are on the same computer.)",
+      "download-size": 46669824,
+      "name": "tvheadend",
+      "publisher": {
+        "id": "oew2TZOpQF0lGd3JKNZydA2BCn1Z66FO",
+        "username": "diddledan",
+        "display-name": "Daniel Llewellyn",
+        "validation": "unproven"
+      },
+      "developer": "diddledan",
+      "status": "available",
+      "type": "app",
+      "version": "4.2.6",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "17",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/diddlesnaps/tvheadend/issues",
+      "license": "unset"
+    },
+    {
+      "id": "Bsjue8Sm6L3zWS05BvjopQeEfTKlLHEF",
+      "title": "kube-controller-manager",
+      "summary": "kube-controller-manager",
+      "description": "kube-controller-manager",
+      "download-size": 66002944,
+      "name": "kube-controller-manager",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "1.13.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "693",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snaps@canonical.com",
+      "license": "Other Open Source"
+    },
+    {
+      "id": "CQABYoGge9Vs2HVu3GqpPrH1NloZyML2",
+      "title": "crossbar",
+      "summary": "Crossbar.io - WAMP application router",
+      "description": "Crossbar.io is a networking platform for distributed and microservice\napplications. It is feature rich, scalable, robust and secure. Let\nCrossbar.io take care of the hard parts of messaging so you can focus\non your app's features.",
+      "download-size": 20877312,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/09/crossbar_icon.svg.png",
+      "name": "crossbar",
+      "publisher": {
+        "id": "Y0OJo9eD30GqEGP8MjCMv1pVsexFcZJ4",
+        "username": "crossbario",
+        "display-name": "Crossbar.io GmbH",
+        "validation": "unproven"
+      },
+      "developer": "crossbario",
+      "status": "available",
+      "type": "app",
+      "version": "19.1.1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "666",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://crossbar.io",
+      "license": "AGPL-3.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/09/crossbar_icon.svg.png"
+        }
+      ]
+    },
+    {
+      "id": "EJAo6GIN1YvjyerXT0cClRwToD3qqTb0",
+      "title": "netvirt-agent2",
+      "summary": "NetVirt a is network virtualization platform.",
+      "description": "NetVirt a is network virtualization platform.\n\nThis snap contains the NetVirt agent.",
+      "download-size": 1433600,
+      "name": "netvirt-agent2",
+      "publisher": {
+        "id": "b5y5tWzq7fotBJ6shxeld8HIZ61pJ0z3",
+        "username": "nib",
+        "display-name": "Nicolas J. Bouliane",
+        "validation": "unproven"
+      },
+      "developer": "nib",
+      "status": "available",
+      "type": "app",
+      "version": "2.0.1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "61",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "GPL-2.0+"
+    },
+    {
+      "id": "GoV2YaJT1a71k1OxwmwN1l0MctPVUGdx",
+      "title": "postgresql96",
+      "summary": "PostgreSQL is a powerful, open source object-relational database system.",
+      "description": "PostgreSQL is a powerful, open source object-relational database system. It has more than 15 years of active development and a proven architecture that has earned it a strong reputation for reliability, data integrity, and correctness.",
+      "download-size": 37875712,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/10/postgresql-icon-256x256.jpg_3.png",
+      "name": "postgresql96",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
+      "developer": "cmd",
+      "status": "available",
+      "type": "app",
+      "version": "9.6.9",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "50",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:community@commandprompt.com",
+      "license": "Other Open Source",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/10/postgresql-icon-256x256.jpg_3.png"
+        }
+      ]
+    },
+    {
+      "id": "GsxYxb4I15nrsXDe0IPJjb51zYcNpE24",
+      "title": "cast-web-api",
+      "summary": "Control your Google Cast devices.",
+      "description": "See what's currently playing pause, play, set the volume and more, all from the SmartThings app. Quickly play your favourite content through presets. Check if the daemon is running:\n  $ snap services cast-web-api\nrestart:\n  $ snap restart cast-web-api\n\nOriginal app: https://vervallsweg.github.io",
+      "download-size": 13783040,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/cast-web-api.png",
+      "name": "cast-web-api",
+      "publisher": {
+        "id": "oVvvcqa5XpDMytSKHLjoNLWetunrhzmt",
+        "username": "ignacio",
+        "display-name": "Ignacio Martinez",
+        "validation": "unproven"
+      },
+      "developer": "ignacio",
+      "status": "available",
+      "type": "app",
+      "version": "1.0.1",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "6",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "unset",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/cast-web-api.png"
+        }
+      ]
+    },
+    {
+      "id": "Jgg3PL8MXHm3QlpzkzAfJsrAfsej3U1z",
+      "title": "kubelet",
+      "summary": "kubelet is the primary “node agent” that runs on each node in Kubernetes.",
+      "description": "The kubelet is the primary “node agent” that runs on each node. The kubelet\nworks in terms of a PodSpec. A PodSpec is a YAML or JSON object that describes\na pod. The kubelet takes a set of PodSpecs that are provided through various\nmechanisms (primarily through the apiserver) and ensures that the containers\ndescribed in those PodSpecs are running and healthy. The kubelet doesn’t\nmanage containers which were not created by Kubernetes.\n",
+      "download-size": 22671360,
+      "name": "kubelet",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "1.13.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "704",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snaps@canonical.com",
+      "license": "Other Open Source"
+    },
+    {
+      "id": "KMZLusdClmUyLXAjjcI4sVnpjk1kM653",
+      "title": "kube-apiserver",
+      "summary": "kube-apiserver",
+      "description": "kube-apiserver",
+      "download-size": 21966848,
+      "name": "kube-apiserver",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "1.13.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "706",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snaps@canonical.com",
+      "license": "Other Open Source"
+    },
+    {
+      "id": "KcHObzFDZqjULKN6H6R79QnMrCwIL8Xb",
+      "title": "minikube",
+      "summary": "Run Kubernetes locally",
+      "description": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube\nruns a single-node Kubernetes cluster inside a VM on your laptop for users\nlooking to try out Kubernetes or develop with it day-to-day.\n",
+      "download-size": 54566912,
+      "name": "minikube",
+      "publisher": {
+        "id": "a95kkXCT3MH6YnEBARXha95KfYMEaJrI",
+        "username": "cmars",
+        "display-name": "Casey Marshall",
+        "validation": "unproven"
+      },
+      "developer": "cmars",
+      "status": "available",
+      "type": "app",
+      "version": "0.8.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "4",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
       "license": "Proprietary"
     },
     {
-      "id": "J60k4JY0HppjwOjW8dZdYc8obXKxujRu",
-      "title": "LXD",
-      "summary": "System container manager and API",
-      "description": "LXD is a container manager for system containers.\r\n\r\nIt offers a REST API to remotely manage containers over the network, using an image based workflow and with support for live migration.\r\n\r\nImages are available for all Ubuntu releases and architectures as well as for a wide number of other Linux distributions.\r\n\r\nLXD containers are lightweight, secure by default and a great alternative to virtual machines.",
-      "download-size": 57008128,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/containers.png",
-      "name": "lxd",
-      "developer": "canonical",
+      "id": "KjWWkhvVGQz3C83ZKRbhx6jumckOuN5R",
+      "title": "shell2http",
+      "summary": "Executing shell commands via HTTP server",
+      "description": "HTTP-server for executing shell commands. Designed for develop, prototype or remote control.\nSettings through two command line arguments, path and shell command.\nBy default bind to :8080.\nhttps://github.com/msoap/shell2http",
+      "download-size": 2232320,
+      "name": "shell2http",
+      "publisher": {
+        "id": "6J1iR5GsHUUUGFlBG7YwylyrDNfpsMsb",
+        "username": "msoap",
+        "display-name": "Sergey Mudrik",
+        "validation": "unproven"
+      },
+      "developer": "msoap",
       "status": "available",
       "type": "app",
-      "version": "3.1",
+      "version": "1.13",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "7275",
+      "revision": "68",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "https://github.com/lxc/lxd/issues",
-      "license": "Apache-2.0",
-      "screenshots": [
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/lxd.png"
-        }
-      ]
+      "contact": "",
+      "license": "MIT"
     },
     {
-      "id": "YMJsyW4vySPdys8BCA7jx8UiOVSVhUT6",
-      "title": "stress-ng",
-      "summary": "tool to load and stress a computer",
-      "description": "stress-ng can stress various subsystems of a computer.  It can stress load CPU, cache, disk, memory, socket and pipe I/O, scheduling and much more.  stress-ng is a re-write of the original stress tool by Amos Waterland but has many additional features such as specifying the number of bogo operations to run, execution metrics, a stress verification on memory and compute operations and considerably more stress mechanisms.",
-      "download-size": 2347008,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/07/stress-ng-256x256.png",
-      "name": "stress-ng",
-      "developer": "cking-kernel-tools",
+      "id": "OYkSLXVTgJIZh2LgMBwx4v2HDWCfoLaI",
+      "title": "slcli",
+      "summary": "Python based SoftLayer API Tool.",
+      "description": "A command-line interface is also included and can be used to manage various SoftLayer products and services.",
+      "download-size": 11460608,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/sl_logo_Snap.png",
+      "name": "slcli",
+      "publisher": {
+        "id": "FA2NG3XXbQLR2Sh6Kc0nsRi4Gwf7K9AB",
+        "username": "softlayer",
+        "display-name": "SoftLayer",
+        "validation": "unproven"
+      },
+      "developer": "softlayer",
       "status": "available",
       "type": "app",
-      "version": "0.09.28-20180525-4264-0e8e0ce",
+      "version": "5.5.1+git",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "335",
+      "revision": "383",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "mailto:colin.king@canonical.com",
-      "license": "GPL-2.0",
-      "screenshots": [
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/07/large_1.png"
-        }
-      ]
-    },
-    {
-      "id": "Ee7LGphwQR669pcfCCdl0oJQouta69to",
-      "title": "FFmpeg",
-      "summary": "A complete solution to record, convert and stream audio and video.",
-      "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the cutting edge. No matter if they were designed by some standards committee, the community or a corporation.",
-      "download-size": 20807680,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/05/ffmpeg_LI3KGoz.png",
-      "name": "ffmpeg",
-      "developer": "snapcrafters",
-      "status": "available",
-      "type": "app",
-      "version": "4.0",
-      "channel": "stable",
-      "ignore-validation": false,
-      "revision": "13",
-      "confinement": "classic",
-      "private": false,
-      "devmode": false,
-      "jailmode": false,
-      "contact": "https://github.com/snapcrafters/ffmpeg/issues",
-      "license": "LGPL-2.1+",
-      "screenshots": [
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/05/01_ffmpeg.png"
-        },
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/05/02_ffmpeg.png"
-        },
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/05/03_ffmpeg.png"
-        }
-      ]
-    },
-    {
-      "id": "GhcPmkNNyI2NORCAAdqEG0R303ITAhO9",
-      "title": "tizonia",
-      "summary": "Tizonia command-line cloud music player.",
-      "description": "Command-line cloud music player for Linux with support for Spotify,\nGoogle Play Music, YouTube, SoundCloud, Dirble, Plex servers and Chromecast devices.",
-      "download-size": 53293056,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/12/tizonia-logo-256.png",
-      "name": "tizonia",
-      "developer": "tizonia",
-      "status": "available",
-      "type": "app",
-      "version": "0.14.0",
-      "channel": "stable",
-      "ignore-validation": false,
-      "revision": "172",
-      "confinement": "strict",
-      "private": false,
-      "devmode": false,
-      "jailmode": false,
-      "contact": "http://www.tizonia.org",
-      "license": "LGPL-3.0+",
-      "screenshots": [
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/03/tizonia-usage-screencast2.gif"
-        },
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/03/tizonia-usage-screencast.gif"
-        }
-      ]
-    },
-    {
-      "id": "ijQR4HjYlTAmIjELJm5XCpNAqbDZWJ3h",
-      "title": "conjure-up",
-      "summary": "Package runtime for conjure-up spells",
-      "description": "This package provides conjure-up, an interface to installing spells that provide the user with an end to end walkthrough experience for installing and using big software.\r\n",
-      "download-size": 106254336,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/08/icon_12.png",
-      "name": "conjure-up",
-      "developer": "canonical",
-      "status": "available",
-      "type": "app",
-      "version": "2.5.6-20180507.2005",
-      "channel": "stable",
-      "ignore-validation": false,
-      "revision": "999",
-      "confinement": "classic",
-      "private": false,
-      "devmode": false,
-      "jailmode": false,
-      "contact": "https://github.com/conjure-up/conjure-up",
+      "contact": "https://github.com/softlayer/softlayer-python/issues",
       "license": "MIT",
       "screenshots": [
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/application-config.png"
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/02/Screenshot_from_2018-02-16_18-40-24.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
         },
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/application-list.png"
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/Screenshot_from_2018-06-07_17-30-38.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/sl_logo_Snap.png"
         },
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/bootstrap-wait.png"
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/02/Screenshot_from_2018-02-16_18-40-24.png"
         },
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/cloud-selection.png"
-        },
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/deploy-status.png"
-        },
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/spell-selection.png"
-        },
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/steps-config.png"
-        },
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/01/summary.png"
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/Screenshot_from_2018-06-07_17-30-38.png"
         }
       ]
     },
     {
-      "id": "sLCsFAO8PKM5Z0fAKNszUOX0YASjQfeZ",
-      "title": "Docker",
-      "summary": "The docker app deployment mechanism",
-      "description": "Docker for snappy.\r\n\r\nThis snap allows you to use the full capabilities of docker on snappy.\r\n\r\nIn order to use 'docker build', 'docker save' and 'docker load', you need to place your dockerfile within $HOME. All files that you want docker to access to must be within this path.\r\n\r\nYou may also use the 'docker-privilege' command to allow you to use 'docker run --privileged'. Because docker is unencumbered on snappy, it is recommended that you follow the Docker project's recommendations for using docker securely.",
-      "download-size": 43610112,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2015/04/docker.svg.png",
-      "name": "docker",
-      "developer": "docker-inc",
+      "id": "SdtgeYIT0Z9UTvJGfdJlQwulONc5TvVY",
+      "title": "SMonitor",
+      "summary": "Monitoring of server states (and other things)",
+      "description": "SMonitor beta version -- Prerequisite: Java 8 or higher! ---\n\nBuilt on/for Linux KUbuntu 16.04, Java 8, Apache2 web server and MySQL data base server (status quo 06/2018) -- it might run on other system configurations as well.  ----\n\nWith different init methods (SysV/Upstart/systemd) and after some updates the servers were startet at boot time even if they should not, so I put this tool into 'Autostart' to be informed of the misbehavior.\n\n++++++++++++++++++++++++++++++++++++++++++++++++ \nSorry about the additional pop-up -- it is a temporary workaround \nfor some issues of snappy (snap, snapd, snapcraft). More details at: \nhttps://forum.snapcraft.io/t/running-systemd-commands-inside-a-snap/3591/5",
+      "download-size": 91516928,
+      "name": "smonitor",
+      "publisher": {
+        "id": "O4KNVzEq6drSkzE4EWwuWPVFCXJCre3r",
+        "username": "jes",
+        "display-name": "Juergen Smolka",
+        "validation": "unproven"
+      },
+      "developer": "jes",
       "status": "available",
       "type": "app",
-      "version": "17.06.2-ce",
+      "version": "0.0.2beta-amd64",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "179",
+      "revision": "5",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "mailto:snappy-devel@lists.ubuntu.com",
-      "license": "Apache-2.0"
+      "contact": "https://smolka.lima-city.de/contact.php",
+      "license": "GPL-2.0+",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor01.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor02.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor03.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor04.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/smonitor-ping-ubuntu.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor01.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor02.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor03.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor04.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/smonitor-ping-ubuntu.png"
+        }
+      ]
+    },
+    {
+      "id": "VY12auPDSljUlac4CZaOdMExw7IASsgB",
+      "title": "helm",
+      "summary": "The Kubernetes package manager",
+      "description": "Helm is a tool for managing Kubernetes\ncharts. Charts are packages of\npre-configured Kubernetes resources.\n\nThis snap is maintained by the Snapcrafters community, and is not necessarily endorsed or officially maintained by the upstream developers.",
+      "download-size": 9117696,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/helm.png",
+      "name": "helm",
+      "publisher": {
+        "id": "eEoV9TnaNkCzfJBu9SRhr2678vzyYV43",
+        "username": "snapcrafters",
+        "display-name": "Snapcrafters",
+        "validation": "unproven"
+      },
+      "developer": "snapcrafters",
+      "status": "available",
+      "type": "app",
+      "version": "2.12.3",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "82",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/snapcrafters/helm/issues",
+      "license": "Apache-2.0",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/06/helm.png"
+        }
+      ]
     },
     {
       "id": "W7TagWOq55vJphD3Ek4ZUtQytGRMeQqK",
@@ -356,6 +1572,12 @@
       "download-size": 40583168,
       "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/05/postgresql-icon-256x256.jpg.png",
       "name": "postgresql10",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
       "developer": "cmd",
       "status": "available",
       "type": "app",
@@ -368,131 +1590,367 @@
       "devmode": false,
       "jailmode": false,
       "contact": "",
+      "license": "Proprietary",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/05/postgresql-icon-256x256.jpg.png"
+        }
+      ]
+    },
+    {
+      "id": "WF2MM79M4JKmmaBmY6BXQhvTJAl9ui7S",
+      "title": "postgresql95-pgpool2-36",
+      "summary": "pgpool-II is a connection pooler for PostgreSQL.",
+      "description": "pgpool-II is a middleware that works between PostgreSQL servers and a PostgreSQL database client. It is licensed under BSD license. It provides the following features – Connection Pooling, Replication Load Balancing, Limiting Exceeding Connections.",
+      "download-size": 2793472,
+      "name": "postgresql95-pgpool2-36",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
+      "developer": "cmd",
+      "status": "available",
+      "type": "app",
+      "version": "3.6.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "2",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
       "license": "Proprietary"
     },
     {
-      "id": "TKebVGcPeDKoOqAmNmczU2oWLtsojKD5",
-      "title": "etcd",
-      "summary": "Resilient key-value store by CoreOS",
-      "description": "Etcd is a high availability key-value store, implementing the RAFT\nalgorithm to deal with failover within the etcd cluster.  Popular\nin the Docker community as a shared store of small but important\ndata in a distributed application.\n",
-      "download-size": 11128832,
-      "name": "etcd",
-      "developer": "tvansteenburgh",
+      "id": "YMQvMBBIcLMx0IVw4nrugFaJvf2SmEvr",
+      "title": "keycloak-standalone-spicule",
+      "summary": "Keycloak Single Sign On Server",
+      "description": "This is the Snap package for the Redhat maintained Keycloak SSO server.\nIt requires an external database to operate to prevent data loss.\nThis version is standalone and runs as a single node, check out the \ncluster version for scale out deployments.",
+      "download-size": 319721472,
+      "name": "keycloak-standalone-spicule",
+      "publisher": {
+        "id": "4fGxHAhxSnRoRUBSBGnA3A33vIFac3Ro",
+        "username": "magicaltrout",
+        "display-name": "Tom Barber",
+        "validation": "unproven"
+      },
+      "developer": "magicaltrout",
       "status": "available",
       "type": "app",
-      "version": "3.2.8",
+      "version": "4.8.1",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "76",
+      "revision": "5",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "mailto:snappy-canonical-storeaccount@canonical.com",
+      "contact": "mailto:info@spicule.co.uk",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "ba2aj8guta0zSRlT3QM5aJNAUXPlBtf9",
+      "title": "subiquity",
+      "summary": "Ubuntu installer",
+      "description": "The Ubuntu server installer",
+      "download-size": 51007488,
+      "name": "subiquity",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "0+git.dfe61a0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "664",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:mathieu.trudel-lapierre@canonical.com",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "d84hqXCTM2KBt6BG4G3IzMPdduCQII0U",
+      "title": "postgresql95-pgpool2-35",
+      "summary": "pgpool-II is a connection pooler for PostgreSQL.",
+      "description": "pgpool-II is a middleware that works between PostgreSQL servers and a PostgreSQL database client. It is licensed under BSD license. It provides the following features – Connection Pooling, Replication Load Balancing, Limiting Exceeding Connections.",
+      "download-size": 2760704,
+      "name": "postgresql95-pgpool2-35",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
+      "developer": "cmd",
+      "status": "available",
+      "type": "app",
+      "version": "3.5.4",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "2",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "",
+      "license": "Proprietary"
+    },
+    {
+      "id": "eeEICnDiB3tj94pKQM1BwtEcvVgHe95n",
+      "title": "cdk-addons",
+      "summary": "Addons for the Canonical Distribution of Kubernetes",
+      "description": "Addons for the Canonical Distribution of Kubernetes\n",
+      "download-size": 9531392,
+      "name": "cdk-addons",
+      "publisher": {
+        "id": "canonical",
+        "username": "canonical",
+        "display-name": "Canonical",
+        "validation": "verified"
+      },
+      "developer": "canonical",
+      "status": "available",
+      "type": "app",
+      "version": "1.13.2",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "691",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:snaps@canonical.com",
       "license": "Other Open Source"
     },
     {
-      "id": "V4Z90JuG4d64ycAAl948fM4vWQA9594q",
-      "title": "keepalived",
-      "summary": "High availability VRRP and load-balancing for Linux",
-      "description": "Keepalived is routing software written in C to provide simple and robust\nfacilities for loadbalancing and high-availability to Linux based\ninfrastructures.  Loadbalancing framework relies on well-known Linux\nVirtual Server (IPVS) kernel module providing Layer4 loadbalancing.\nHigh-availability is achieved by VRRP protocol.\n",
-      "download-size": 11161600,
-      "name": "keepalived",
-      "developer": "sabdfl",
+      "id": "givNyNnRpoCnmVXPQxL4p6QggKiW92cs",
+      "title": "redirect-to",
+      "summary": "Simple, very fast, in a single binary, with web UI HTTP redirect service",
+      "description": "Simple, very fast, in a single binary, with web UI HTTP redirect service.\nContains embedded UI that allows you check add/update/remove rules online and\ncheck how many hits you rules collected\n\nSource code licensed under MIT and can be obtained via https://github.com/reddec/redirect",
+      "download-size": 4001792,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/icon.svg_mS7EJSV.png",
+      "name": "redirect-to",
+      "publisher": {
+        "id": "NWwduO9fqgMFqPCvNo462SR01BNyLsSj",
+        "username": "reddec",
+        "display-name": "Baryshnikov Aleksandr",
+        "validation": "unproven"
+      },
+      "developer": "reddec",
       "status": "available",
       "type": "app",
-      "version": "1.3.5",
+      "version": "0+git.a86ecce",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "67",
-      "confinement": "classic",
+      "revision": "17",
+      "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "mailto:mark@ubuntu.com",
-      "license": "GPL-2.0"
-    },
-    {
-      "id": "doU6KflBPp4ayHlwmLhafENYrK12iyBk",
-      "title": "micro",
-      "summary": "A modern and intuitive terminal-based text editor",
-      "description": "Micro is a terminal-based text editor that aims to be easy to use and\nintuitive, while also taking advantage of the full capabilities of modern\nterminals.",
-      "download-size": 3108864,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2017/10/micro-logo-mark_yAeRlBT.png",
-      "name": "micro",
-      "developer": "zy",
-      "status": "available",
-      "type": "app",
-      "version": "0+git.af520cf",
-      "channel": "stable",
-      "ignore-validation": false,
-      "revision": "648",
-      "confinement": "classic",
-      "private": false,
-      "devmode": false,
-      "jailmode": false,
-      "contact": "mailto:zyedidia@gmail.com",
+      "contact": "mailto:owner@reddec.net",
       "license": "MIT",
       "screenshots": [
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/10/micro-atom-dark.png"
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/redirect_ui.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/icon.svg_mS7EJSV.png"
         },
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/10/micro-monokai.png"
-        },
-        {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2017/10/micro-solarized.png"
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/redirect_ui.png"
         }
       ]
     },
     {
-      "id": "hJmReLmgXSUj4SF7WhyTVRV6IzUa4QUZ",
-      "title": "htop",
-      "summary": "Interactive processes viewer",
-      "description": "Htop is an ncurses-based process viewer similar to top, but it allows one to scroll the list vertically and horizontally to see all processes and their full command lines.\r\n\r\nTasks related to processes (killing, renicing) can be done without entering their PIDs.\r\n",
-      "download-size": 4882432,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2016/05/htop.svg.png",
-      "name": "htop",
-      "developer": "maxiberta",
+      "id": "jdStYu24h466vcpYF3V28zDplC2NEcjy",
+      "title": "postgresql-pgbouncer",
+      "summary": "Lightweight connection pooler for PostgreSQL",
+      "description": "Lightweight connection pooler for PostgreSQL",
+      "download-size": 643072,
+      "name": "postgresql-pgbouncer",
+      "publisher": {
+        "id": "B8oLpAkeAIsmyKRGs9qTcdPgflXY0DOx",
+        "username": "cmd",
+        "display-name": "Command Prompt, Inc.",
+        "validation": "verified"
+      },
+      "developer": "cmd",
       "status": "available",
       "type": "app",
-      "version": "2.2.0",
+      "version": "1.7.2",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "224",
+      "revision": "2",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "https://github.com/maxiberta/htop-snap/issues",
-      "license": "GPL-2.0",
+      "contact": "",
+      "license": "Proprietary"
+    },
+    {
+      "id": "lRcMnlvYUgdzI53gYbvCNehLhLBXwnwk",
+      "title": "vapor-master",
+      "summary": "RosHub Vapor Master",
+      "description": "Vapor-master is a drop in replacement for rosmaster enabling high availability ROS service discovery. Vapor removes the single point of failure fundamental to ROS1, enabling new options for achieving scale without sacrificing stability.",
+      "download-size": 25960448,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/roshub_vector_logo-256x256.png",
+      "name": "vapor-master",
+      "publisher": {
+        "id": "pCxbvvrxa5EhlTjs6dtMWCySjVI5GfRP",
+        "username": "roshub",
+        "display-name": "RosHub Inc",
+        "validation": "unproven"
+      },
+      "developer": "roshub",
+      "status": "available",
+      "type": "app",
+      "version": "0.3",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "46",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:code@roshub.io",
+      "license": "Apache-2.0",
       "screenshots": [
         {
-          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2016/05/htop-2.0.png"
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/vapor-1_1-db.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/vapor_scaling.jpg",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/roshub_logo_cropped_large.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/roshub_vector_logo-256x256.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/vapor-1_1-db.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/vapor_scaling.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/roshub_logo_cropped_large.png"
         }
       ]
     },
     {
-      "id": "mDxT0cGOHKSs62MOHSK5Ype0Na5UU2LB",
-      "title": "mosquitto",
-      "summary": "Eclipse Mosquitto MQTT broker",
-      "description": "This is a message broker that supports version 3.1 and 3.1.1 of the MQTT protocol. MQTT provides a method of carrying out messaging using a publish/subscribe model. It is lightweight, both in terms of bandwidth usage and ease of implementation. This makes it particularly useful at the edge of the network where a sensor or other simple device may be implemented using an arduino for example.\n\nThis snap runs as a service by default, using a configuration file $SNAP_COMMON/mosquitto.conf, which is typically /var/snap/mosquitto/common/mosquitto.conf. Due to the ways snaps work and are confined at the moment, it is a requirement to have a `user root` line in your configuration file so that the broker does not attempt to change to the mosquitto user.\n\nYou can also run mosquitto as a normal user, in which case it expects a configuration file at $SNAP_USER_COMMON/mosquitto.conf, or /home/user/snap/mosquitto/common/mosquitto.conf",
-      "download-size": 1748992,
-      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2018/03/logo-256.png",
-      "name": "mosquitto",
-      "developer": "ralight",
+      "id": "ltx4XjES2e2ujitNIuO5GxPYDM6lp6ry",
+      "title": "oracle-cloud-agent",
+      "summary": "Oracle Cloud Agent",
+      "description": "Oracle Cloud Infrastructure agent for compute instance management and monitoring.",
+      "download-size": 14790656,
+      "name": "oracle-cloud-agent",
+      "publisher": {
+        "id": "6gJngAZqUerOGcztmb398xUtcZa8twxE",
+        "username": "oci.osi",
+        "display-name": "Oracle Cloud Infrastructure",
+        "validation": "unproven"
+      },
+      "developer": "oci.osi",
       "status": "available",
       "type": "app",
-      "version": "1.5",
+      "version": "0.0.4.162",
       "channel": "stable",
       "ignore-validation": false,
-      "revision": "33",
+      "revision": "3",
+      "confinement": "classic",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "mailto:oci_osi_grp@oracle.com",
+      "license": "UPL-1.0"
+    },
+    {
+      "id": "miU2SKGOyKZkpzOcj7NZxhuKfMGNGfyw",
+      "title": "h2static",
+      "summary": "Tiny static web server with TLS and HTTP/2 support",
+      "description": "Static web server using the builtin Go http library.\n\nIt supports HTTP/2 and TLS.\n\nThis snap provides both an command \"h2static\" that can be run by any user,\nwith access to the user home directory, and a system-wide daemon.\n\nThe daemon is configured with the following options:\n\n  - listen\n\n    the \"address:port\" for the service to listen on. The address can be\n    omitted (e.g. :8080) to bind all addresses.\n\n    If this option is not set, the service will not be started.\n\n  - serve-path\n\n    the directory to serve content from. it's set to $SNAP_COMMON if not\n    specified.\n\n    If the \"removable-media\" interface is connected, a path under /media can\n    also be used.\n\n  - disable-h2\n\n    set to true to disable HTTP/2 support.\n\n  - tls.cert, tls.key\n\n    ASCII content of the TLS certificate. If both are set, HTTPS support will\n    be enabled.\n",
+      "download-size": 3072000,
+      "name": "h2static",
+      "publisher": {
+        "id": "1A4j65y5oe5F3jKS1VHKYDsYmYASGIQu",
+        "username": "ack",
+        "display-name": "Alberto Donato",
+        "validation": "unproven"
+      },
+      "developer": "ack",
+      "status": "available",
+      "type": "app",
+      "version": "1.0.0",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "14",
       "confinement": "strict",
       "private": false,
       "devmode": false,
       "jailmode": false,
-      "contact": "https://mosquitto.org/",
-      "license": "EPL-1.0"
+      "contact": "https://github.com/albertodonato/h2static/issues",
+      "license": "LGPL-3.0"
+    },
+    {
+      "id": "t3hW1r6c7hCZ1S9lvGNQh2y8jOLOSGad",
+      "title": "Factorio Headless Server",
+      "summary": "Headless server for Factorio running as a system service",
+      "description": "Change configuration options and watch log\n\n    sudo snap get factorio-headless\n    sudo snap set factorio-headless admins='[\"kovarex\"]'\n    sudo snap set factorio-headless game-password=1337\n    sudo snap restart factorio-headless\n    sudo snap logs factorio-headless -f\n\nControl the service and check status\n\n    sudo snap start factorio-headless\n    sudo snap stop factorio-headless\n    sudo snap start --enable factorio-headless\n    sudo snap stop --disable factorio-headless\n    sudo snap services | grep factorio-headless\n\nServer files location\n\n    ls /var/snap/factorio-headless/common",
+      "download-size": 32276480,
+      "icon": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/icon_2yuGmCj.png",
+      "name": "factorio-headless",
+      "publisher": {
+        "id": "QC5NSduoevvLaR6xYliKyl9nPqRV3frc",
+        "username": "nubing",
+        "display-name": "Private Nubing",
+        "validation": "unproven"
+      },
+      "developer": "nubing",
+      "status": "available",
+      "type": "app",
+      "version": "0.16.51",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "10",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://github.com/nubing/factorio-headless/issues",
+      "license": "Proprietary",
+      "media": [
+        {
+          "type": "icon",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/01/icon_2yuGmCj.png"
+        }
+      ]
     }
   ],
   "sources": [

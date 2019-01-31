@@ -1,0 +1,151 @@
+{
+  "type": "sync",
+  "status-code": 200,
+  "status": "OK",
+  "result": [
+    {
+      "id": "SdtgeYIT0Z9UTvJGfdJlQwulONc5TvVY",
+      "title": "SMonitor",
+      "summary": "Monitoring of server states (and other things)",
+      "description": "SMonitor beta version -- Prerequisite: Java 8 or higher! ---\n\nBuilt on/for Linux KUbuntu 16.04, Java 8, Apache2 web server and MySQL data base server (status quo 06/2018) -- it might run on other system configurations as well.  ----\n\nWith different init methods (SysV/Upstart/systemd) and after some updates the servers were startet at boot time even if they should not, so I put this tool into 'Autostart' to be informed of the misbehavior.\n\n++++++++++++++++++++++++++++++++++++++++++++++++ \nSorry about the additional pop-up -- it is a temporary workaround \nfor some issues of snappy (snap, snapd, snapcraft). More details at: \nhttps://forum.snapcraft.io/t/running-systemd-commands-inside-a-snap/3591/5",
+      "download-size": 91516928,
+      "name": "smonitor",
+      "publisher": {
+        "id": "O4KNVzEq6drSkzE4EWwuWPVFCXJCre3r",
+        "username": "jes",
+        "display-name": "Juergen Smolka",
+        "validation": "unproven"
+      },
+      "developer": "jes",
+      "status": "available",
+      "type": "app",
+      "version": "0.0.2beta-amd64",
+      "channel": "stable",
+      "ignore-validation": false,
+      "revision": "5",
+      "confinement": "strict",
+      "private": false,
+      "devmode": false,
+      "jailmode": false,
+      "contact": "https://smolka.lima-city.de/contact.php",
+      "license": "GPL-2.0+",
+      "screenshots": [
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor01.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor02.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor03.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor04.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        },
+        {
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/smonitor-ping-ubuntu.png",
+          "note": "'screenshots' is deprecated; use 'media' instead. More info at https://forum.snapcraft.io/t/8086"
+        }
+      ],
+      "media": [
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor01.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor02.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor03.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/06/smonitor04.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://dashboard.snapcraft.io/site_media/appmedia/2018/11/smonitor-ping-ubuntu.png"
+        }
+      ],
+      "channels": {
+        "latest/beta": {
+          "revision": "4",
+          "confinement": "strict",
+          "version": "0.0.1beta-amd64",
+          "channel": "beta",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 91508736,
+          "released-at": "2018-07-09T17:59:25.980917Z"
+        },
+        "latest/candidate": {
+          "revision": "4",
+          "confinement": "strict",
+          "version": "0.0.1beta-amd64",
+          "channel": "candidate",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 91508736,
+          "released-at": "2018-07-09T17:59:25.981324Z"
+        },
+        "latest/edge": {
+          "revision": "5",
+          "confinement": "strict",
+          "version": "0.0.2beta-amd64",
+          "channel": "edge",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 91516928,
+          "released-at": "2018-07-09T18:02:06.033852Z"
+        },
+        "latest/stable": {
+          "revision": "5",
+          "confinement": "strict",
+          "version": "0.0.2beta-amd64",
+          "channel": "stable",
+          "epoch": {
+            "read": [
+              0
+            ],
+            "write": [
+              0
+            ]
+          },
+          "size": 91516928,
+          "released-at": "2018-07-09T18:02:06.034033Z"
+        }
+      },
+      "tracks": [
+        "latest"
+      ]
+    }
+  ],
+  "sources": [
+    "store"
+  ],
+  "suggested-currency": "USD"
+}
